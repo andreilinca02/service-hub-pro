@@ -36,12 +36,12 @@ const Index = () => {
           src={heroImage}
           alt="EMB-TECH"
           className="w-full max-w-5xl object-contain px-4"
-          style={{ transform: "scale(1.15)" }}
+          style={{ transform: "scale(1.3225)" }}
         />
       </section>
 
       {/* CTA */}
-      <section className="flex justify-center py-12">
+      <section className="flex justify-center" style={{ marginTop: 25 }}>
         <a
           href="mailto:contact@emb-tech.ro"
           className="px-10 py-3 text-lg font-light border border-foreground bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
@@ -52,7 +52,7 @@ const Index = () => {
       </section>
 
       {/* Servicii Section */}
-      <section id="servicii" className="px-4 pb-20 max-w-5xl mx-auto mt-[150px]">
+      <section id="servicii" className="px-4 pb-20 max-w-5xl mx-auto" style={{ marginTop: 40 }}>
         <h2
           className="gradient-text text-center font-black text-[24px] mb-10"
           style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
@@ -92,7 +92,7 @@ const Index = () => {
       </section>
 
       {/* Soluții Development Section */}
-      <section className="px-4 pb-20 max-w-5xl mx-auto mt-[50px]">
+      <section className="px-4 pb-20 max-w-5xl mx-auto" style={{ marginTop: 25 }}>
         <h2
           className="gradient-text text-center font-black text-[24px] mb-10"
           style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
@@ -132,7 +132,7 @@ const Index = () => {
             <div className="flex flex-col" style={{ gap: 20 }}>
               <input
                 type="text"
-                placeholder="Nume si Prenume (Opțional)"
+                placeholder="Nume și Prenume (Opțional)"
                 className="w-full text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary"
                 style={{
                   height: 52,
@@ -161,7 +161,7 @@ const Index = () => {
                 }}
               />
               <textarea
-                placeholder="Message"
+                placeholder="Mesaj"
                 className="w-full text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary resize-none"
                 style={{
                   height: 150,
