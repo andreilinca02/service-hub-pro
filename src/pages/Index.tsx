@@ -45,10 +45,16 @@ const Index = () => {
         </a>
       </section>
 
-      {/* Services */}
-      <section id="servicii" className="px-4 pb-20 max-w-5xl mx-auto">
+      {/* Servicii Section */}
+      <section id="servicii" className="px-4 pb-20 max-w-5xl mx-auto mt-[150px]">
+        <h2
+          className="gradient-text text-center font-black text-[24px] mb-10"
+          style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
+        >
+          Servicii
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {services.map((service) => (
+          {servicesRow1.map((service) => (
             <div
               key={service}
               className="bg-card border border-card-border rounded-[15px] p-8 flex items-start justify-center min-h-[200px]"
@@ -58,6 +64,46 @@ const Index = () => {
                 style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
               >
                 {service}
+              </h3>
+            </div>
+          ))}
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 max-w-[66%] mx-auto">
+          {servicesRow2.map((service) => (
+            <div
+              key={service}
+              className="bg-card border border-card-border rounded-[15px] p-8 flex items-start justify-center min-h-[200px]"
+            >
+              <h3
+                className="gradient-text text-center font-black text-[22px]"
+                style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
+              >
+                {service}
+              </h3>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Soluții Development Section */}
+      <section className="px-4 pb-20 max-w-5xl mx-auto mt-[150px]">
+        <h2
+          className="gradient-text text-center font-black text-[24px] mb-10"
+          style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
+        >
+          Soluții Development
+        </h2>
+        <div className="flex justify-center">
+          {developmentBoxes.map((item) => (
+            <div
+              key={item}
+              className="bg-card border border-card-border rounded-[15px] p-8 flex items-start justify-center min-h-[200px] w-full max-w-[calc(33.333%-1rem)]"
+            >
+              <h3
+                className="gradient-text text-center font-black text-[22px]"
+                style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
+              >
+                {item}
               </h3>
             </div>
           ))}
