@@ -27,11 +27,16 @@ const Index = () => {
       </header>
 
       {/* Hero */}
-      <section id="acasa" className="w-full px-4 flex justify-center">
+      <section
+        id="acasa"
+        className="w-full flex items-center justify-center"
+        style={{ minHeight: "100vh" }}
+      >
         <img
           src={heroImage}
           alt="EMB-TECH"
-          className="w-full max-w-5xl object-contain rounded"
+          className="w-full max-w-5xl object-contain px-4"
+          style={{ transform: "scale(1.15)" }}
         />
       </section>
 
@@ -39,7 +44,7 @@ const Index = () => {
       <section className="flex justify-center py-12">
         <a
           href="mailto:contact@emb-tech.ro"
-          className="px-10 py-3 text-lg font-light border border-foreground bg-primary text-primary-foreground rounded-full hover:opacity-90 transition-opacity"
+          className="px-10 py-3 text-lg font-light border border-foreground bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
           style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, borderRadius: 25 }}
         >
           Contact
@@ -112,32 +117,75 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="px-4 pb-20 max-w-5xl mx-auto mt-[150px]">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <section className="px-4 mx-auto mt-[150px]" style={{ maxWidth: 1200, paddingTop: 100, paddingBottom: 100 }}>
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center" style={{ gap: 60 }}>
           {/* Left - Contact Form */}
-          <div className="flex flex-col gap-4">
-            <input
-              type="text"
-              placeholder="Nume si Prenume (Opțional)"
-              className="w-full bg-card border border-card-border rounded-[10px] px-4 py-3 text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:border-primary"
-              style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300 }}
-            />
-            <input
-              type="email"
-              placeholder="Email"
-              className="w-full bg-card border border-card-border rounded-[10px] px-4 py-3 text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:border-primary"
-              style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300 }}
-            />
-            <textarea
-              placeholder="Message"
-              rows={6}
-              className="w-full bg-card border border-card-border rounded-[10px] px-4 py-3 text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:border-primary resize-none"
-              style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300 }}
-            />
-            <div>
+          <div
+            className="w-full"
+            style={{
+              background: "hsl(0 0% 6.7%)",
+              border: "1px solid hsl(0 0% 16.5%)",
+              borderRadius: 20,
+              padding: "35px",
+            }}
+          >
+            <div className="flex flex-col" style={{ gap: 20 }}>
+              <input
+                type="text"
+                placeholder="Nume si Prenume (Opțional)"
+                className="w-full text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary"
+                style={{
+                  height: 52,
+                  background: "hsl(0 0% 5.1%)",
+                  border: "1px solid hsl(0 0% 16.5%)",
+                  borderRadius: 12,
+                  paddingLeft: 15,
+                  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                  fontWeight: 300,
+                  fontSize: 16,
+                }}
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                className="w-full text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary"
+                style={{
+                  height: 52,
+                  background: "hsl(0 0% 5.1%)",
+                  border: "1px solid hsl(0 0% 16.5%)",
+                  borderRadius: 12,
+                  paddingLeft: 15,
+                  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                  fontWeight: 300,
+                  fontSize: 16,
+                }}
+              />
+              <textarea
+                placeholder="Message"
+                className="w-full text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary resize-none"
+                style={{
+                  height: 150,
+                  background: "hsl(0 0% 5.1%)",
+                  border: "1px solid hsl(0 0% 16.5%)",
+                  borderRadius: 12,
+                  paddingLeft: 15,
+                  paddingTop: 15,
+                  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                  fontWeight: 300,
+                  fontSize: 16,
+                }}
+              />
               <button
-                className="px-10 py-3 text-lg font-light border border-foreground bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
-                style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, borderRadius: 25 }}
+                className="w-full bg-primary text-primary-foreground hover:brightness-110 transition-all cursor-pointer"
+                style={{
+                  height: 60,
+                  marginTop: 0,
+                  border: "1px solid white",
+                  borderRadius: 30,
+                  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                  fontWeight: 300,
+                  fontSize: 18,
+                }}
               >
                 Trimite
               </button>
@@ -145,7 +193,7 @@ const Index = () => {
           </div>
 
           {/* Right - Contact Info */}
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col" style={{ gap: 22 }}>
             <h2
               className="gradient-text font-black text-[24px]"
               style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
@@ -154,36 +202,74 @@ const Index = () => {
             </h2>
 
             {/* Description placeholder box */}
-            <div className="bg-card border border-card-border rounded-[10px] p-6 min-h-[80px]" />
+            <div
+              style={{
+                background: "hsl(0 0% 6.7%)",
+                border: "1px solid hsl(0 0% 16.5%)",
+                borderRadius: 15,
+                padding: 20,
+                minHeight: 100,
+              }}
+            />
 
             {/* Email */}
-            <div className="bg-card border border-card-border rounded-[10px] px-5 py-4 flex items-center gap-4">
+            <div
+              className="flex items-center"
+              style={{
+                height: 57,
+                background: "hsl(var(--card))",
+                border: "1px solid hsl(0 0% 16.5%)",
+                borderRadius: 12,
+                paddingLeft: 15,
+                gap: 15,
+              }}
+            >
               <Mail size={20} className="text-foreground shrink-0" />
               <span
-                className="text-foreground text-[16px]"
-                style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300 }}
+                className="text-foreground"
+                style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 16 }}
               >
                 emb.tech.service@gmail.com
               </span>
             </div>
 
             {/* Phone */}
-            <div className="bg-card border border-card-border rounded-[10px] px-5 py-4 flex items-center gap-4">
+            <div
+              className="flex items-center"
+              style={{
+                height: 57,
+                background: "hsl(var(--card))",
+                border: "1px solid hsl(0 0% 16.5%)",
+                borderRadius: 12,
+                paddingLeft: 15,
+                gap: 15,
+              }}
+            >
               <Phone size={20} className="text-foreground shrink-0" />
               <span
-                className="text-foreground text-[16px]"
-                style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300 }}
+                className="text-foreground"
+                style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 16 }}
               >
                 0777777777
               </span>
             </div>
 
             {/* Instagram */}
-            <div className="bg-card border border-card-border rounded-[10px] px-5 py-4 flex items-center gap-4">
+            <div
+              className="flex items-center"
+              style={{
+                height: 57,
+                background: "hsl(var(--card))",
+                border: "1px solid hsl(0 0% 16.5%)",
+                borderRadius: 12,
+                paddingLeft: 15,
+                gap: 15,
+              }}
+            >
               <Instagram size={20} className="text-foreground shrink-0" />
               <span
-                className="text-foreground text-[16px]"
-                style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300 }}
+                className="text-foreground"
+                style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 16 }}
               >
                 @emb.tech
               </span>

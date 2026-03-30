@@ -35,7 +35,11 @@
     --sidebar-accent-foreground: 0 0% 100%;
     --sidebar-border: 0 0% 0%;
     --sidebar-ring: 195 38% 67%;
-    --gradient-text: linear-gradient(270deg, #A7DEEE, #89BDCD, #4E99B4);
+    --form-bg: 0 0% 6.7%;
+    --form-border: 0 0% 16.5%;
+    --form-input-bg: 0 0% 5.1%;
+    --contact-box-bg: 0 0% 10.6%;
+    --contact-box-border: 0 0% 16.5%;
   }
 }
 
