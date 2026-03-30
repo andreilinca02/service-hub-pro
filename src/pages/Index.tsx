@@ -1,10 +1,8 @@
 import heroImage from "@/assets/Website_Background.jpg";
 
-const services = [
-  "Mentenanță laptop",
-  "Mentenanță PC",
-  "Mentenanță consolă",
-];
+const servicesRow1 = ["Mentenanță laptop", "Mentenanță PC", "Mentenanță consolă"];
+const servicesRow2 = ["Reparații", "Software"];
+const developmentBoxes = ["Automotive"];
 
 const Index = () => {
   return (
