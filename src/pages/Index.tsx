@@ -71,7 +71,7 @@ const Index = () => {
                 backgroundColor: "#161617",
                 transition: "transform 0.25s ease, background-color 0.25s ease",
               }}
-              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#1B1B1B"; }}
+              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#222224"; }}
               onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.backgroundColor = "#161617"; }}
             >
               <h3
@@ -93,7 +93,7 @@ const Index = () => {
                 backgroundColor: "#161617",
                 transition: "transform 0.25s ease, background-color 0.25s ease",
               }}
-              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#1B1B1B"; }}
+              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#222224"; }}
               onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.backgroundColor = "#161617"; }}
             >
               <h3
@@ -124,7 +124,7 @@ const Index = () => {
                 backgroundColor: "#161617",
                 transition: "transform 0.25s ease, background-color 0.25s ease",
               }}
-              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#1B1B1B"; }}
+              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#222224"; }}
               onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.backgroundColor = "#161617"; }}
             >
               <h3
