@@ -138,7 +138,7 @@ const Index = () => {
 
       {/* Contact Section */}
       <section className="px-4 mx-auto" style={{ maxWidth: 1200, paddingTop: 100, paddingBottom: 100, marginTop: 150 }}>
-        <div className="grid grid-cols-1 md:grid-cols-2 items-stretch gap-10 md:gap-[60px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-stretch gap-10 md:gap-5">
           {/* Left - Contact Form */}
           <div
             className="w-full flex flex-col"
