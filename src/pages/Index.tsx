@@ -32,12 +32,6 @@ const Index = () => {
         className="w-full flex flex-col items-center justify-center"
         style={{ minHeight: "calc(100vh - 60px)" }}
       >
-        <img
-          src={heroImage}
-          alt="EMB-TECH"
-          className="w-full max-w-5xl object-contain px-4"
-          style={{ transform: "scale(1.3225)" }}
-        />
         <a
           href="mailto:contact@emb-tech.ro"
           className="px-10 py-3 text-lg font-light border border-foreground bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
@@ -45,11 +39,17 @@ const Index = () => {
             fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
             fontWeight: 300,
             borderRadius: 25,
-            marginTop: 25,
+            marginBottom: 25,
           }}
         >
           Contact
         </a>
+        <img
+          src={heroImage}
+          alt="EMB-TECH"
+          className="w-full max-w-5xl object-contain px-4"
+          style={{ transform: "scale(1.3225)" }}
+        />
       </section>
 
       {/* Servicii Section */}
@@ -64,7 +64,13 @@ const Index = () => {
           {servicesRow1.map((service) => (
             <div
               key={service}
-              className="bg-card border border-card-border rounded-[15px] p-8 flex items-start justify-center min-h-[200px]"
+              className="border border-card-border rounded-[15px] p-8 flex items-start justify-center min-h-[200px] cursor-pointer"
+              style={{
+                backgroundColor: "#161617",
+                transition: "transform 0.25s ease, background-color 0.25s ease",
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#1B1B1B"; }}
+              onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.backgroundColor = "#161617"; }}
             >
               <h3
                 className="gradient-text text-center font-black text-[20px]"
@@ -80,7 +86,13 @@ const Index = () => {
           {servicesRow2.map((service) => (
             <div
               key={service}
-              className="bg-card border border-card-border rounded-[15px] p-8 flex items-start justify-center min-h-[200px]"
+              className="border border-card-border rounded-[15px] p-8 flex items-start justify-center min-h-[200px] cursor-pointer"
+              style={{
+                backgroundColor: "#161617",
+                transition: "transform 0.25s ease, background-color 0.25s ease",
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#1B1B1B"; }}
+              onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.backgroundColor = "#161617"; }}
             >
               <h3
                 className="gradient-text text-center font-black text-[20px]"
@@ -105,7 +117,13 @@ const Index = () => {
           {developmentBoxes.map((item) => (
             <div
               key={item}
-              className="bg-card border border-card-border rounded-[15px] p-8 flex items-start justify-center min-h-[200px] w-full md:max-w-[calc(33.333%-1rem)]"
+              className="border border-card-border rounded-[15px] p-8 flex items-start justify-center min-h-[200px] w-full md:max-w-[calc(33.333%-1rem)] cursor-pointer"
+              style={{
+                backgroundColor: "#161617",
+                transition: "transform 0.25s ease, background-color 0.25s ease",
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#1B1B1B"; }}
+              onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.backgroundColor = "#161617"; }}
             >
               <h3
                 className="gradient-text text-center font-black text-[20px]"
@@ -120,7 +138,7 @@ const Index = () => {
 
       {/* Contact Section */}
       <section className="px-4 mx-auto" style={{ maxWidth: 1200, paddingTop: 100, paddingBottom: 100, marginTop: 150 }}>
-        <div className="grid grid-cols-1 md:grid-cols-2 items-stretch gap-10 md:gap-[60px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-stretch gap-10 md:gap-5">
           {/* Left - Contact Form */}
           <div
             className="w-full flex flex-col"
@@ -182,7 +200,7 @@ const Index = () => {
                 style={{
                   height: 60,
                   border: "1px solid white",
-                  borderRadius: 30,
+                  borderRadius: 20,
                   fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
                   fontWeight: 300,
                   fontSize: 18,
