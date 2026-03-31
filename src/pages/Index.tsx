@@ -32,6 +32,12 @@ const Index = () => {
         className="w-full flex flex-col items-center justify-center"
         style={{ minHeight: "calc(100vh - 60px)" }}
       >
+        <img
+          src={heroImage}
+          alt="EMB-TECH"
+          className="w-full max-w-5xl object-contain px-4"
+          style={{ transform: "scale(1.3225)", position: "relative", zIndex: 1 }}
+        />
         <a
           href="mailto:contact@emb-tech.ro"
           className="px-10 py-3 text-lg font-light border border-foreground bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
@@ -39,17 +45,13 @@ const Index = () => {
             fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
             fontWeight: 300,
             borderRadius: 25,
-            marginBottom: 25,
+            marginTop: 25,
+            position: "relative",
+            zIndex: 2,
           }}
         >
           Contact
         </a>
-        <img
-          src={heroImage}
-          alt="EMB-TECH"
-          className="w-full max-w-5xl object-contain px-4"
-          style={{ transform: "scale(1.3225)" }}
-        />
       </section>
 
       {/* Servicii Section */}
@@ -69,7 +71,7 @@ const Index = () => {
                 backgroundColor: "#161617",
                 transition: "transform 0.25s ease, background-color 0.25s ease",
               }}
-              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#1B1B1B"; }}
+              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#222224"; }}
               onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.backgroundColor = "#161617"; }}
             >
               <h3
@@ -91,7 +93,7 @@ const Index = () => {
                 backgroundColor: "#161617",
                 transition: "transform 0.25s ease, background-color 0.25s ease",
               }}
-              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#1B1B1B"; }}
+              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#222224"; }}
               onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.backgroundColor = "#161617"; }}
             >
               <h3
@@ -122,7 +124,7 @@ const Index = () => {
                 backgroundColor: "#161617",
                 transition: "transform 0.25s ease, background-color 0.25s ease",
               }}
-              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#1B1B1B"; }}
+              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#222224"; }}
               onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.backgroundColor = "#161617"; }}
             >
               <h3
