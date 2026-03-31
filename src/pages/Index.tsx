@@ -117,7 +117,13 @@ const Index = () => {
           {developmentBoxes.map((item) => (
             <div
               key={item}
-              className="bg-card border border-card-border rounded-[15px] p-8 flex items-start justify-center min-h-[200px] w-full md:max-w-[calc(33.333%-1rem)]"
+              className="border border-card-border rounded-[15px] p-8 flex items-start justify-center min-h-[200px] w-full md:max-w-[calc(33.333%-1rem)] cursor-pointer"
+              style={{
+                backgroundColor: "#161617",
+                transition: "transform 0.25s ease, background-color 0.25s ease",
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#1B1B1B"; }}
+              onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.backgroundColor = "#161617"; }}
             >
               <h3
                 className="gradient-text text-center font-black text-[20px]"
