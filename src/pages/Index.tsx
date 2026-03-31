@@ -200,7 +200,7 @@ const Index = () => {
                 style={{
                   height: 60,
                   border: "1px solid white",
-                  borderRadius: 30,
+                  borderRadius: 20,
                   fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
                   fontWeight: 300,
                   fontSize: 18,
