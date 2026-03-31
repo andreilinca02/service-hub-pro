@@ -1,9 +1,12 @@
 import heroImage from "@/assets/Website_Background.jpg";
 import { Mail, Phone, Instagram } from "lucide-react";
 
-const servicesRow1 = ["Mentenanță laptop", "Mentenanță PC", "Mentenanță consolă"];
-const servicesRow2 = ["Reparații", "Software"];
-const developmentBoxes = ["Automotive"];
+const services = [
+  { title: "Reparații", desc: "diagnosticare și reparație PCB-uri, plăci de bază, mufe, înlocuire de componente, upgradeuri și optimizări" },
+  { title: "Mentenanță laptop/PC", desc: "curățare profesională interioară, înlocuire pastă termoconductoare, verificare ventilatoare și airflow, remediere erori hardware" },
+  { title: "Mentenanță consolă", desc: "curățare profesională interioară, înlocuire pastă termoconductoare, verificare ventilatoare și airflow" },
+  { title: "Software", desc: "instalare/optimizare sistem de operare, update/rescriere BIOS, drivere, instalare diverse software" },
+];
 
 const Index = () => {
   return (
@@ -26,7 +29,7 @@ const Index = () => {
         </a>
       </header>
 
-      {/* Hero: image + contact button as one centered unit */}
+      {/* Hero */}
       <section
         id="acasa"
         className="w-full flex flex-col items-center justify-center"
@@ -47,7 +50,7 @@ const Index = () => {
             borderRadius: 25,
             marginTop: 25,
             position: "relative",
-            zIndex: 2,
+            zIndex: 3,
           }}
         >
           Contact
@@ -62,11 +65,11 @@ const Index = () => {
         >
           Servicii
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {servicesRow1.map((service) => (
+        <div className="grid grid-cols-1 md:grid-cols-2" style={{ gap: 20 }}>
+          {services.map((service) => (
             <div
-              key={service}
-              className="border border-card-border rounded-[15px] p-8 flex items-start justify-center min-h-[200px] cursor-pointer"
+              key={service.title}
+              className="border border-card-border rounded-[15px] p-8 flex flex-col items-center min-h-[200px] cursor-pointer"
               style={{
                 backgroundColor: "#161617",
                 transition: "transform 0.25s ease, background-color 0.25s ease",
@@ -78,37 +81,26 @@ const Index = () => {
                 className="gradient-text text-center font-black text-[20px]"
                 style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
               >
-                {service}
+                {service.title}
               </h3>
-            </div>
-          ))}
-        </div>
-        {/* Row 2: full width on mobile, centered 2/3 on desktop */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 md:max-w-[66%] md:mx-auto">
-          {servicesRow2.map((service) => (
-            <div
-              key={service}
-              className="border border-card-border rounded-[15px] p-8 flex items-start justify-center min-h-[200px] cursor-pointer"
-              style={{
-                backgroundColor: "#161617",
-                transition: "transform 0.25s ease, background-color 0.25s ease",
-              }}
-              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#222224"; }}
-              onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.backgroundColor = "#161617"; }}
-            >
-              <h3
-                className="gradient-text text-center font-black text-[20px]"
-                style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
+              <p
+                className="text-center mt-4"
+                style={{
+                  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                  fontWeight: 300,
+                  fontSize: 18,
+                  color: "#FFFFFF",
+                }}
               >
-                {service}
-              </h3>
+                {service.desc}
+              </p>
             </div>
           ))}
         </div>
       </section>
 
       {/* Soluții Development Section */}
-      <section className="px-4 pb-20 max-w-5xl mx-auto" style={{ marginTop: 25 }}>
+      <section className="px-4 pb-20 max-w-5xl mx-auto" style={{ marginTop: 30 }}>
         <h2
           className="gradient-text text-center font-black text-[24px] mb-10"
           style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
@@ -116,31 +108,39 @@ const Index = () => {
           Soluții Development
         </h2>
         <div className="flex justify-center">
-          {developmentBoxes.map((item) => (
-            <div
-              key={item}
-              className="border border-card-border rounded-[15px] p-8 flex items-start justify-center min-h-[200px] w-full md:max-w-[calc(33.333%-1rem)] cursor-pointer"
-              style={{
-                backgroundColor: "#161617",
-                transition: "transform 0.25s ease, background-color 0.25s ease",
-              }}
-              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#222224"; }}
-              onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.backgroundColor = "#161617"; }}
+          <div
+            className="border border-card-border rounded-[15px] p-8 flex flex-col items-center min-h-[200px] w-full md:max-w-[calc(50%-10px)] cursor-pointer"
+            style={{
+              backgroundColor: "#161617",
+              transition: "transform 0.25s ease, background-color 0.25s ease",
+            }}
+            onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#222224"; }}
+            onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.backgroundColor = "#161617"; }}
+          >
+            <h3
+              className="gradient-text text-center font-black text-[20px]"
+              style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
             >
-              <h3
-                className="gradient-text text-center font-black text-[20px]"
-                style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
-              >
-                {item}
-              </h3>
-            </div>
-          ))}
+              Automotive
+            </h3>
+            <p
+              className="text-center mt-4"
+              style={{
+                fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                fontWeight: 300,
+                fontSize: 18,
+                color: "#FFFFFF",
+              }}
+            >
+              platforme AUTOSAR, comunicații CAN/Ethernet, diagnostică, RTOS, debugging
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Contact Section */}
       <section className="px-4 mx-auto" style={{ maxWidth: 1200, paddingTop: 100, paddingBottom: 100, marginTop: 150 }}>
-        <div className="grid grid-cols-1 md:grid-cols-2 items-stretch gap-10 md:gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-stretch" style={{ gap: 20 }}>
           {/* Left - Contact Form */}
           <div
             className="w-full flex flex-col"
@@ -213,7 +213,7 @@ const Index = () => {
             </div>
           </div>
 
-          {/* Right - Contact Info (wrapped in matching container) */}
+          {/* Right - Contact Info */}
           <div
             className="w-full flex flex-col"
             style={{
@@ -231,7 +231,6 @@ const Index = () => {
                 Contactează-mă mai ușor
               </h2>
 
-              {/* Description placeholder box */}
               <div
                 style={{
                   background: "hsl(var(--form-input-bg))",
@@ -242,7 +241,6 @@ const Index = () => {
                 }}
               />
 
-              {/* Email */}
               <div
                 className="flex items-center"
                 style={{
@@ -255,15 +253,11 @@ const Index = () => {
                 }}
               >
                 <Mail size={20} className="text-foreground shrink-0" />
-                <span
-                  className="text-foreground"
-                  style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 16 }}
-                >
+                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 16 }}>
                   emb.tech.service@gmail.com
                 </span>
               </div>
 
-              {/* Phone */}
               <div
                 className="flex items-center"
                 style={{
@@ -276,15 +270,11 @@ const Index = () => {
                 }}
               >
                 <Phone size={20} className="text-foreground shrink-0" />
-                <span
-                  className="text-foreground"
-                  style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 16 }}
-                >
+                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 16 }}>
                   0777777777
                 </span>
               </div>
 
-              {/* Instagram */}
               <div
                 className="flex items-center"
                 style={{
@@ -297,10 +287,7 @@ const Index = () => {
                 }}
               >
                 <Instagram size={20} className="text-foreground shrink-0" />
-                <span
-                  className="text-foreground"
-                  style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 16 }}
-                >
+                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 16 }}>
                   @emb.tech
                 </span>
               </div>
