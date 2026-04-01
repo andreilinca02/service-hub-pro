@@ -328,7 +328,7 @@ const Index = () => {
                 }}
               >
                 <Instagram size={20} className="text-foreground shrink-0" />
-                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 16 }}>
+                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 15 }}>
                   @emb.tech
                 </span>
               </div>
