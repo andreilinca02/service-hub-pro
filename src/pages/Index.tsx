@@ -155,9 +155,14 @@ const Index = () => {
             color: "#FFFFFF",
             marginTop: 10,
             marginBottom: 30,
+            lineHeight: 1.6,
           }}
         >
-          &nbsp;
+          Trimite-mi un mesaj cu ceea ce ai nevoie.
+          <br />
+          <span style={{ display: "inline-block", marginTop: 8 }}>
+            După ce primesc mesajul tău, îți voi răspunde cu următorii pași și o cotație individuală.
+          </span>
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 items-stretch" style={{ gap: 20 }}>
           {/* Left - Contact Form */}
