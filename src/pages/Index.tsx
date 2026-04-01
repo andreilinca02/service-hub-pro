@@ -273,7 +273,7 @@ const Index = () => {
                   minHeight: 100,
                   fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
                   fontWeight: 300,
-                  fontSize: 16,
+                  fontSize: 15,
                   color: "#FFFFFF",
                 }}
               >
