@@ -232,11 +232,13 @@ const Index = () => {
                 <input
                   type="email"
                   placeholder="Email"
+                  value={email}
+                  onChange={(e) => { setEmail(e.target.value); if (errors.email) setErrors(prev => ({ ...prev, email: undefined })); }}
                   className="w-full text-foreground placeholder:text-muted-foreground placeholder:text-[12px] focus:outline-none focus:border-primary"
                   style={{
                     height: 52,
                     background: "hsl(var(--form-input-bg))",
-                    border: "1px solid hsl(var(--form-border))",
+                    border: errors.email ? "1px solid #ef4444" : "1px solid hsl(var(--form-border))",
                     borderRadius: 12,
                     paddingLeft: 15,
                     fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
@@ -244,16 +246,19 @@ const Index = () => {
                     fontSize: 16,
                   }}
                 />
+                {errors.email && <p style={errorStyle}>{errors.email}</p>}
               </div>
               <div>
                 <label style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 14, color: "#FFFFFF", display: "block", marginBottom: 6 }}>Mesaj</label>
                 <textarea
                   placeholder="Mesaj"
+                  value={mesaj}
+                  onChange={(e) => { setMesaj(e.target.value); if (errors.mesaj) setErrors(prev => ({ ...prev, mesaj: undefined })); }}
                   className="w-full text-foreground placeholder:text-muted-foreground placeholder:text-[12px] focus:outline-none focus:border-primary resize-none"
                   style={{
                     height: 150,
                     background: "hsl(var(--form-input-bg))",
-                    border: "1px solid hsl(var(--form-border))",
+                    border: errors.mesaj ? "1px solid #ef4444" : "1px solid hsl(var(--form-border))",
                     borderRadius: 12,
                     paddingLeft: 15,
                     paddingTop: 15,
@@ -262,8 +267,10 @@ const Index = () => {
                     fontSize: 16,
                   }}
                 />
+                {errors.mesaj && <p style={errorStyle}>{errors.mesaj}</p>}
               </div>
               <button
+                onClick={handleSubmit}
                 className="w-full bg-primary text-primary-foreground hover:brightness-110 transition-all cursor-pointer"
                 style={{
                   height: 60,
