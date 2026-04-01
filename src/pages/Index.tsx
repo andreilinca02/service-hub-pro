@@ -1,3 +1,4 @@
+import { useState } from "react";
 import heroImage from "@/assets/Website_Background.jpg";
 import { Mail, Phone, Instagram } from "lucide-react";
 
@@ -8,7 +9,39 @@ const services = [
   { title: "Software", desc: "instalare/optimizare sistem de operare, update/rescriere BIOS, drivere, instalare diverse software" },
 ];
 
+const errorStyle: React.CSSProperties = {
+  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+  fontWeight: 300,
+  fontSize: 12,
+  color: "#ef4444",
+  marginTop: 5,
+};
+
 const Index = () => {
+  const [email, setEmail] = useState("");
+  const [mesaj, setMesaj] = useState("");
+  const [errors, setErrors] = useState<{ email?: string; mesaj?: string }>({});
+  const [submitted, setSubmitted] = useState(false);
+
+  const validate = () => {
+    const newErrors: { email?: string; mesaj?: string } = {};
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email.trim() || !emailRegex.test(email.trim())) {
+      newErrors.email = "Te rog introdu o adresă de email validă";
+    }
+    if (!mesaj.trim()) {
+      newErrors.mesaj = "Te rog completează mesajul";
+    }
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+  const handleSubmit = () => {
+    if (validate()) {
+      setSubmitted(true);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
