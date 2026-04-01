@@ -257,8 +257,16 @@ const Index = () => {
                   borderRadius: 15,
                   padding: 20,
                   minHeight: 100,
+                  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                  fontWeight: 300,
+                  fontSize: 16,
+                  color: "#FFFFFF",
                 }}
-              />
+              >
+                <p style={{ marginBottom: 10 }}>Furnizați modelul exact al dispozitivului (de exemplu, o placă, un laptop, un controller, un modul).</p>
+                <p style={{ marginBottom: 10 }}>Spuneți-mi dacă dispozitivul a fost servisat, reparat sau deschis anterior.</p>
+                <p>Descrieți simptomele și un scurt istoric (de exemplu, cădere, contact cu lichide, supratensiune).</p>
+              </div>
 
               <div
                 className="flex items-center"
