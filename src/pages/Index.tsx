@@ -88,7 +88,7 @@ const Index = () => {
                 style={{
                   fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
                   fontWeight: 300,
-                  fontSize: 18,
+                  fontSize: 15,
                   color: "#FFFFFF",
                 }}
               >
@@ -128,7 +128,7 @@ const Index = () => {
               style={{
                 fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
                 fontWeight: 300,
-                fontSize: 18,
+                fontSize: 15,
                 color: "#FFFFFF",
               }}
             >
@@ -176,51 +176,60 @@ const Index = () => {
             }}
           >
             <div className="flex flex-col flex-1 justify-center" style={{ gap: 20 }}>
-              <input
-                type="text"
-                placeholder="Nume și Prenume (Opțional)"
-                className="w-full text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary"
-                style={{
-                  height: 52,
-                  background: "hsl(var(--form-input-bg))",
-                  border: "1px solid hsl(var(--form-border))",
-                  borderRadius: 12,
-                  paddingLeft: 15,
-                  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
-                  fontWeight: 300,
-                  fontSize: 16,
-                }}
-              />
-              <input
-                type="email"
-                placeholder="Email"
-                className="w-full text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary"
-                style={{
-                  height: 52,
-                  background: "hsl(var(--form-input-bg))",
-                  border: "1px solid hsl(var(--form-border))",
-                  borderRadius: 12,
-                  paddingLeft: 15,
-                  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
-                  fontWeight: 300,
-                  fontSize: 16,
-                }}
-              />
-              <textarea
-                placeholder="Mesaj"
-                className="w-full text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary resize-none"
-                style={{
-                  height: 150,
-                  background: "hsl(var(--form-input-bg))",
-                  border: "1px solid hsl(var(--form-border))",
-                  borderRadius: 12,
-                  paddingLeft: 15,
-                  paddingTop: 15,
-                  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
-                  fontWeight: 300,
-                  fontSize: 16,
-                }}
-              />
+              <div>
+                <label style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 14, color: "#FFFFFF", display: "block", marginBottom: 6 }}>Nume și prenume</label>
+                <input
+                  type="text"
+                  placeholder="Nume și prenume"
+                  className="w-full text-foreground placeholder:text-muted-foreground placeholder:text-[12px] focus:outline-none focus:border-primary"
+                  style={{
+                    height: 52,
+                    background: "hsl(var(--form-input-bg))",
+                    border: "1px solid hsl(var(--form-border))",
+                    borderRadius: 12,
+                    paddingLeft: 15,
+                    fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                    fontWeight: 300,
+                    fontSize: 16,
+                  }}
+                />
+              </div>
+              <div>
+                <label style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 14, color: "#FFFFFF", display: "block", marginBottom: 6 }}>Email</label>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className="w-full text-foreground placeholder:text-muted-foreground placeholder:text-[12px] focus:outline-none focus:border-primary"
+                  style={{
+                    height: 52,
+                    background: "hsl(var(--form-input-bg))",
+                    border: "1px solid hsl(var(--form-border))",
+                    borderRadius: 12,
+                    paddingLeft: 15,
+                    fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                    fontWeight: 300,
+                    fontSize: 16,
+                  }}
+                />
+              </div>
+              <div>
+                <label style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 14, color: "#FFFFFF", display: "block", marginBottom: 6 }}>Mesaj</label>
+                <textarea
+                  placeholder="Mesaj"
+                  className="w-full text-foreground placeholder:text-muted-foreground placeholder:text-[12px] focus:outline-none focus:border-primary resize-none"
+                  style={{
+                    height: 150,
+                    background: "hsl(var(--form-input-bg))",
+                    border: "1px solid hsl(var(--form-border))",
+                    borderRadius: 12,
+                    paddingLeft: 15,
+                    paddingTop: 15,
+                    fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                    fontWeight: 300,
+                    fontSize: 16,
+                  }}
+                />
+              </div>
               <button
                 className="w-full bg-primary text-primary-foreground hover:brightness-110 transition-all cursor-pointer"
                 style={{
