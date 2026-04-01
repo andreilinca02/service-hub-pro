@@ -140,6 +140,25 @@ const Index = () => {
 
       {/* Contact Section */}
       <section className="px-4 mx-auto" style={{ maxWidth: 1200, paddingTop: 100, paddingBottom: 100, marginTop: 150 }}>
+        <h2
+          className="gradient-text text-center font-black text-[24px] mb-0"
+          style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
+        >
+          Contact
+        </h2>
+        <p
+          className="text-center"
+          style={{
+            fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+            fontWeight: 300,
+            fontSize: 16,
+            color: "#FFFFFF",
+            marginTop: 10,
+            marginBottom: 30,
+          }}
+        >
+          &nbsp;
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 items-stretch" style={{ gap: 20 }}>
           {/* Left - Contact Form */}
           <div
