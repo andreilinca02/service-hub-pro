@@ -151,7 +151,7 @@ const Index = () => {
           style={{
             fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
             fontWeight: 300,
-            fontSize: 16,
+            fontSize: 15,
             color: "#FFFFFF",
             marginTop: 10,
             marginBottom: 30,
@@ -177,7 +177,7 @@ const Index = () => {
           >
             <div className="flex flex-col flex-1 justify-center" style={{ gap: 20 }}>
               <div>
-                <label style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 14, color: "#FFFFFF", display: "block", marginBottom: 6 }}>Nume și prenume</label>
+                <label style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 14, color: "#FFFFFF", display: "block", marginBottom: 6 }}>Nume și Prenume (opțional)</label>
                 <input
                   type="text"
                   placeholder="Nume și prenume"
@@ -273,7 +273,7 @@ const Index = () => {
                   minHeight: 100,
                   fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
                   fontWeight: 300,
-                  fontSize: 16,
+                  fontSize: 15,
                   color: "#FFFFFF",
                 }}
               >
@@ -294,7 +294,7 @@ const Index = () => {
                 }}
               >
                 <Mail size={20} className="text-foreground shrink-0" />
-                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 16 }}>
+                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 15 }}>
                   emb.tech.service@gmail.com
                 </span>
               </div>
@@ -311,7 +311,7 @@ const Index = () => {
                 }}
               >
                 <Phone size={20} className="text-foreground shrink-0" />
-                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 16 }}>
+                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 15 }}>
                   0777777777
                 </span>
               </div>
@@ -328,7 +328,7 @@ const Index = () => {
                 }}
               >
                 <Instagram size={20} className="text-foreground shrink-0" />
-                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 16 }}>
+                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 15 }}>
                   @emb.tech
                 </span>
               </div>
