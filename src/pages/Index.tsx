@@ -151,7 +151,7 @@ const Index = () => {
           style={{
             fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
             fontWeight: 300,
-            fontSize: 16,
+            fontSize: 15,
             color: "#FFFFFF",
             marginTop: 10,
             marginBottom: 30,
