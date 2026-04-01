@@ -294,7 +294,7 @@ const Index = () => {
                 }}
               >
                 <Mail size={20} className="text-foreground shrink-0" />
-                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 16 }}>
+                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 15 }}>
                   emb.tech.service@gmail.com
                 </span>
               </div>
