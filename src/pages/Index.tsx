@@ -47,14 +47,14 @@ const Index = () => {
       {/* Header */}
       <header className="flex items-center justify-center gap-6 py-5">
         <a
-          href="#acasa"
+          href="/"
           className="px-6 py-2 bg-background text-foreground font-light text-sm tracking-wide hover:opacity-70 transition-opacity"
           style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300 }}
         >
           Acasă
         </a>
         <a
-          href="#servicii"
+          href="/servicii"
           className="px-6 py-2 bg-background text-foreground font-light text-sm tracking-wide hover:opacity-70 transition-opacity"
           style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300 }}
         >
