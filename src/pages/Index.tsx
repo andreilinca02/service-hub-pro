@@ -1,6 +1,5 @@
 import { useState } from "react";
 import heroImage from "@/assets/Website_Background.jpg";
-import laptopImage from "@/assets/embtech_mentenanta_laptop.jpg";
 import { Mail, Phone, Instagram } from "lucide-react";
 
 const services = [
@@ -130,45 +129,6 @@ const Index = () => {
               </p>
             </div>
           ))}
-        </div>
-      </section>
-
-      {/* Mentenanță Laptop/PC Feature Section */}
-      <section className="px-4 pb-20 max-w-5xl mx-auto" style={{ marginTop: 60 }}>
-        <div className="flex flex-col md:flex-row items-center justify-between" style={{ gap: 40 }}>
-          <div className="w-full md:w-1/2">
-            <img
-              src={laptopImage}
-              alt="Mentenanță Laptop"
-              className="w-full h-auto object-cover"
-              style={{ borderRadius: 20 }}
-            />
-          </div>
-          <div className="w-full md:w-1/2" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, color: "#FFFFFF" }}>
-            <h3 style={{ fontSize: 22, marginBottom: 15, fontWeight: 300 }}>
-              Mentenanță Laptop / PC – Prevenție și Performanță
-            </h3>
-            <p style={{ fontSize: 16, marginBottom: 15 }}>
-              Serviciile de mentenanță PC și curățare laptop profesională sunt esențiale pentru menținerea temperaturilor optime și prevenirea defectelor costisitoare.
-            </p>
-            <p style={{ fontSize: 16, marginBottom: 10 }}>
-              În timp, praful acumulat și degradarea pastei termice pot duce la:
-            </p>
-            <ul style={{ fontSize: 16, marginBottom: 15, paddingLeft: 20, listStyleType: "'• '", display: "flex", flexDirection: "column", gap: 7 }}>
-              <li>supraîncălzire</li>
-              <li>scădere de performanță</li>
-              <li>blocaje sau opriri neașteptate</li>
-            </ul>
-            <p style={{ fontSize: 16, marginBottom: 10 }}>
-              Serviciul nostru de service laptop și PC include:
-            </p>
-            <ul style={{ fontSize: 16, paddingLeft: 20, listStyleType: "'• '", display: "flex", flexDirection: "column", gap: 7 }}>
-              <li>curățare profesională interior/exterior</li>
-              <li>înlocuire pastă termoconductoare</li>
-              <li>verificare ventilatoare și airflow</li>
-              <li>inspecție generală componente</li>
-            </ul>
-          </div>
         </div>
       </section>
 
