@@ -1,5 +1,6 @@
 import { useState } from "react";
 import heroImage from "@/assets/Website_Background.jpg";
+import laptopImage from "@/assets/embtech_mentenanta_laptop.jpg";
 import { Mail, Phone, Instagram } from "lucide-react";
 
 const services = [
