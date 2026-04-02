@@ -1,3 +1,4 @@
+import heroImage from "@/assets/Website_Background.jpg";
 import laptopImage from "@/assets/embtech_mentenanta_laptop.jpg";
 
 const Servicii = () => {
@@ -20,6 +21,16 @@ const Servicii = () => {
           Servicii
         </a>
       </header>
+
+      {/* Hero Image */}
+      <section className="w-full flex justify-center" style={{ marginTop: 40, marginBottom: 40 }}>
+        <img
+          src={heroImage}
+          alt="EMB-TECH"
+          className="object-contain px-4"
+          style={{ maxWidth: "40%", width: "100%" }}
+        />
+      </section>
 
       {/* Mentenanță Laptop/PC Feature Section */}
       <section className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
