@@ -1,3 +1,4 @@
+import heroImage from "@/assets/Website_Background.jpg";
 import laptopImage from "@/assets/embtech_mentenanta_laptop.jpg";
 
 const Servicii = () => {
