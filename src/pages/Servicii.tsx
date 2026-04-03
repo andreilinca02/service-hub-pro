@@ -1,5 +1,6 @@
 import heroImage from "@/assets/Website_Background.jpg";
 import laptopImage from "@/assets/embtech_mentenanta_laptop.jpg";
+import pcbImage from "@/assets/embtech_reparatii_PCB_microsoldering.webp";
 
 const Servicii = () => {
   return (
@@ -80,6 +81,60 @@ const Servicii = () => {
             </p>
             <p style={{ fontSize: 16 }}>
               Pentru a menține performanța și a preveni defectele, se recomandă efectuarea mentenanței o dată la 6–12 luni, în funcție de utilizare și mediul în care este folosit echipamentul.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Reparații Hardware Section */}
+      <section className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
+        <div className="flex flex-col md:flex-row-reverse items-start justify-between" style={{ gap: 40 }}>
+          <div className="w-full md:w-1/2">
+            <img
+              src={pcbImage}
+              alt="Reparații Hardware PCB"
+              className="w-full h-auto object-cover"
+              style={{ borderRadius: 20 }}
+            />
+          </div>
+          <div className="w-full md:w-1/2" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, color: "#FFFFFF" }}>
+            <h3 style={{ fontSize: 22, marginBottom: 15, fontWeight: 300 }}>
+              Reparații Hardware – Diagnosticare și Intervenții Electronice
+            </h3>
+            <p style={{ fontSize: 16, marginBottom: 15 }}>
+              Oferim servicii de diagnosticare și reparații hardware pentru laptopuri și PC-uri, inclusiv intervenții la nivel de placă de bază (PCB), acolo unde este posibil.
+            </p>
+            <p style={{ fontSize: 16, marginBottom: 15 }}>
+              Identificăm defectele și intervenim punctual pentru remedierea problemelor, de la componente defecte și mufe deteriorate până la trasee întrerupte sau contacte imperfecte.
+            </p>
+            <p style={{ fontSize: 16, marginBottom: 15 }}>
+              Punem accent pe soluții eficiente și corecte, cu scopul de a readuce echipamentul în stare de funcționare fără costuri inutile.
+            </p>
+            <p style={{ fontSize: 16, marginBottom: 10 }}>
+              Serviciile includ:
+            </p>
+            <ul style={{ fontSize: 16, paddingLeft: 0, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7, marginBottom: 15 }}>
+              <li>✔ Diagnosticare hardware</li>
+              <li>✔ Reparații plăci de bază (în limita intervențiilor disponibile)</li>
+              <li>✔ Refacere trasee electrice (unde este posibil)</li>
+              <li>✔ Înlocuire componente defecte</li>
+              <li>✔ Reparații / înlocuire mufe (alimentare, USB etc.)</li>
+              <li>✔ Upgrade-uri și optimizări hardware</li>
+            </ul>
+            <p style={{ fontSize: 16, marginBottom: 10 }}>
+              Beneficii:
+            </p>
+            <ul style={{ fontSize: 16, paddingLeft: 0, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7, marginBottom: 15 }}>
+              <li>✔ Evaluare corectă și transparentă a defectului</li>
+              <li>✔ Soluții eficiente, adaptate fiecărui caz</li>
+              <li>✔ Costuri optimizate față de înlocuirea completă</li>
+              <li>✔ Comunicare clară înainte de orice intervenție</li>
+            </ul>
+            <p style={{ fontSize: 16, marginBottom: 5, fontWeight: 400 }}>
+              Recomandare:
+            </p>
+            <p style={{ fontSize: 16 }}>
+              În cazul problemelor hardware sau al echipamentelor nefuncționale, o diagnosticare corectă este esențială pentru alegerea celei mai bune soluții de reparație.
             </p>
           </div>
         </div>
