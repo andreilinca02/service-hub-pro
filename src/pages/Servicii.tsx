@@ -45,27 +45,23 @@ const Servicii = () => {
           </div>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, color: "#FFFFFF" }}>
             <h3 style={{ fontSize: 22, marginBottom: 15, fontWeight: 300 }}>
-              Mentenanță Laptop / PC – Prevenție și Performanță
+              Mentenanță Laptop / PC – Preventie si performanta
             </h3>
             <p style={{ fontSize: 16, marginBottom: 15 }}>
-              Serviciile de mentenanță PC și curățare laptop profesională sunt esențiale pentru menținerea temperaturilor optime și prevenirea defectelor costisitoare.
+              Laptopurile și calculatoarele sunt esențiale în activitatea zilnică, iar funcționarea lor optimă depinde direct de starea componentelor interne. În timp, acumularea de praf și degradarea pastei termoconductoare afectează sistemul de răcire, ducând la temperaturi ridicate și performanțe instabile.
+            </p>
+            <p style={{ fontSize: 16, marginBottom: 15 }}>
+              Fără o mentenanță periodică, aceste probleme pot evolua în defecte costisitoare sau pierderi de performanță semnificative.
+            </p>
+            <p style={{ fontSize: 16, marginBottom: 15 }}>
+              Prin servicii profesionale de mentenanță, echipamentul tău este curățat, verificat și optimizat pentru a funcționa în condiții ideale.
             </p>
             <p style={{ fontSize: 16, marginBottom: 10 }}>
-              În timp, praful acumulat și degradarea pastei termice pot duce la:
+              Probleme prevenite prin mentenanță:
             </p>
-            <ul style={{ fontSize: 16, marginBottom: 15, paddingLeft: 20, listStyleType: "'• '", display: "flex", flexDirection: "column", gap: 7 }}>
-              <li>supraîncălzire</li>
-              <li>scădere de performanță</li>
-              <li>blocaje sau opriri neașteptate</li>
-            </ul>
-            <p style={{ fontSize: 16, marginBottom: 10 }}>
-              Serviciul nostru de service laptop și PC include:
-            </p>
-            <ul style={{ fontSize: 16, paddingLeft: 20, listStyleType: "'• '", display: "flex", flexDirection: "column", gap: 7 }}>
-              <li>curățare profesională interior/exterior</li>
-              <li>înlocuire pastă termoconductoare</li>
-              <li>verificare ventilatoare și airflow</li>
-              <li>inspecție generală componente</li>
+            <ul style={{ fontSize: 16, paddingLeft: 20, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7 }}>
+              <li>✔ Supraîncălzire și uzură accelerată</li>
+              <li>✔ Scădere de performanță în aplicații și jocuri</li>
             </ul>
           </div>
         </div>
