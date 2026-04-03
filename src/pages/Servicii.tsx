@@ -34,7 +34,7 @@ const Servicii = () => {
 
       {/* Mentenanță Laptop/PC Feature Section */}
       <section className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
-        <div className="flex flex-col md:flex-row items-center justify-between" style={{ gap: 40 }}>
+        <div className="flex flex-col md:flex-row items-start justify-between" style={{ gap: 40 }}>
           <div className="w-full md:w-1/2">
             <img
               src={laptopImage}
