@@ -33,62 +33,9 @@ const Servicii = () => {
         />
       </section>
 
-      {/* Mentenanță Laptop/PC Feature Section */}
+      {/* Reparații Hardware Section - image LEFT, text RIGHT */}
       <section className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
         <div className="flex flex-col md:flex-row items-start justify-between" style={{ gap: 40 }}>
-          <div className="w-full md:w-1/2">
-            <img
-              src={laptopImage}
-              alt="Mentenanță Laptop"
-              className="w-full h-auto object-cover"
-              style={{ borderRadius: 20 }}
-            />
-          </div>
-          <div className="w-full md:w-1/2" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, color: "#FFFFFF" }}>
-            <h3 style={{ fontSize: 22, marginBottom: 15, fontWeight: 300 }}>
-              Mentenanță Laptop / PC – Preventie si performanta
-            </h3>
-            <p style={{ fontSize: 16, marginBottom: 15 }}>
-              Laptopurile și calculatoarele sunt esențiale în activitatea zilnică, iar funcționarea lor optimă depinde direct de starea componentelor interne. În timp, acumularea de praf și degradarea pastei termoconductoare afectează sistemul de răcire, ducând la temperaturi ridicate și performanțe instabile.
-            </p>
-            <p style={{ fontSize: 16, marginBottom: 15 }}>
-              Fără o mentenanță periodică, aceste probleme pot evolua în defecte costisitoare sau pierderi de performanță semnificative.
-            </p>
-            <p style={{ fontSize: 16, marginBottom: 15 }}>
-              Prin servicii profesionale de mentenanță, echipamentul tău este curățat, verificat și optimizat pentru a funcționa în condiții ideale.
-            </p>
-            <p style={{ fontSize: 16, marginBottom: 10 }}>
-              Probleme prevenite prin mentenanță:
-            </p>
-            <ul style={{ fontSize: 16, paddingLeft: 0, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7, marginBottom: 15 }}>
-              <li>✔ Supraîncălzire și uzură accelerată</li>
-              <li>✔ Scădere de performanță în aplicații și jocuri</li>
-              <li>✔ Blocaje, lag sau restarturi neașteptate</li>
-              <li>✔ Zgomot excesiv al ventilatoarelor</li>
-            </ul>
-            <p style={{ fontSize: 16, marginBottom: 10 }}>
-              Serviciul include:
-            </p>
-            <ul style={{ fontSize: 16, paddingLeft: 0, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7, marginBottom: 15 }}>
-              <li>✔ Curățare profesională interior și exterior</li>
-              <li>✔ Înlocuire pastă termoconductoare</li>
-              <li>✔ Verificare și optimizare sistem de răcire (ventilatoare & airflow)</li>
-              <li>✔ Inspecție generală a componentelor</li>
-              <li>✔ Optimizare de performanță (setări hardware & software – ex: RAM, BIOS, sistem)</li>
-            </ul>
-            <p style={{ fontSize: 16, marginBottom: 5, fontWeight: 400 }}>
-              Recomandare profesională:
-            </p>
-            <p style={{ fontSize: 16 }}>
-              Pentru a menține performanța și a preveni defectele, se recomandă efectuarea mentenanței o dată la 6–12 luni, în funcție de utilizare și mediul în care este folosit echipamentul.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Reparații Hardware Section */}
-      <section className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
-        <div className="flex flex-col md:flex-row-reverse items-start justify-between" style={{ gap: 40 }}>
           <div className="w-full md:w-1/2">
             <img
               src={pcbImage}
@@ -135,6 +82,59 @@ const Servicii = () => {
             </p>
             <p style={{ fontSize: 16 }}>
               În cazul problemelor hardware sau al echipamentelor nefuncționale, o diagnosticare corectă este esențială pentru alegerea celei mai bune soluții de reparație.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Mentenanță Laptop/PC Section - image RIGHT, text LEFT */}
+      <section className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
+        <div className="flex flex-col md:flex-row-reverse items-start justify-between" style={{ gap: 40 }}>
+          <div className="w-full md:w-1/2">
+            <img
+              src={laptopImage}
+              alt="Mentenanță Laptop"
+              className="w-full h-auto object-cover"
+              style={{ borderRadius: 20 }}
+            />
+          </div>
+          <div className="w-full md:w-1/2" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, color: "#FFFFFF" }}>
+            <h3 style={{ fontSize: 22, marginBottom: 15, fontWeight: 300 }}>
+              Mentenanță Laptop / PC – Preventie si performanta
+            </h3>
+            <p style={{ fontSize: 16, marginBottom: 15 }}>
+              Laptopurile și calculatoarele sunt esențiale în activitatea zilnică, iar funcționarea lor optimă depinde direct de starea componentelor interne. În timp, acumularea de praf și degradarea pastei termoconductoare afectează sistemul de răcire, ducând la temperaturi ridicate și performanțe instabile.
+            </p>
+            <p style={{ fontSize: 16, marginBottom: 15 }}>
+              Fără o mentenanță periodică, aceste probleme pot evolua în defecte costisitoare sau pierderi de performanță semnificative.
+            </p>
+            <p style={{ fontSize: 16, marginBottom: 15 }}>
+              Prin servicii profesionale de mentenanță, echipamentul tău este curățat, verificat și optimizat pentru a funcționa în condiții ideale.
+            </p>
+            <p style={{ fontSize: 16, marginBottom: 10 }}>
+              Probleme prevenite prin mentenanță:
+            </p>
+            <ul style={{ fontSize: 16, paddingLeft: 0, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7, marginBottom: 15 }}>
+              <li>✔ Supraîncălzire și uzură accelerată</li>
+              <li>✔ Scădere de performanță în aplicații și jocuri</li>
+              <li>✔ Blocaje, lag sau restarturi neașteptate</li>
+              <li>✔ Zgomot excesiv al ventilatoarelor</li>
+            </ul>
+            <p style={{ fontSize: 16, marginBottom: 10 }}>
+              Serviciul include:
+            </p>
+            <ul style={{ fontSize: 16, paddingLeft: 0, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7, marginBottom: 15 }}>
+              <li>✔ Curățare profesională interior și exterior</li>
+              <li>✔ Înlocuire pastă termoconductoare</li>
+              <li>✔ Verificare și optimizare sistem de răcire (ventilatoare & airflow)</li>
+              <li>✔ Inspecție generală a componentelor</li>
+              <li>✔ Optimizare de performanță (setări hardware & software – ex: RAM, BIOS, sistem)</li>
+            </ul>
+            <p style={{ fontSize: 16, marginBottom: 5, fontWeight: 400 }}>
+              Recomandare profesională:
+            </p>
+            <p style={{ fontSize: 16 }}>
+              Pentru a menține performanța și a preveni defectele, se recomandă efectuarea mentenanței o dată la 6–12 luni, în funcție de utilizare și mediul în care este folosit echipamentul.
             </p>
           </div>
         </div>
