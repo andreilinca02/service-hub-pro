@@ -59,10 +59,28 @@ const Servicii = () => {
             <p style={{ fontSize: 16, marginBottom: 10 }}>
               Probleme prevenite prin mentenanță:
             </p>
-            <ul style={{ fontSize: 16, paddingLeft: 20, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7 }}>
+            <ul style={{ fontSize: 16, paddingLeft: 0, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7, marginBottom: 15 }}>
               <li>✔ Supraîncălzire și uzură accelerată</li>
               <li>✔ Scădere de performanță în aplicații și jocuri</li>
+              <li>✔ Blocaje, lag sau restarturi neașteptate</li>
+              <li>✔ Zgomot excesiv al ventilatoarelor</li>
             </ul>
+            <p style={{ fontSize: 16, marginBottom: 10 }}>
+              Serviciul include:
+            </p>
+            <ul style={{ fontSize: 16, paddingLeft: 0, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7, marginBottom: 15 }}>
+              <li>✔ Curățare profesională interior și exterior</li>
+              <li>✔ Înlocuire pastă termoconductoare</li>
+              <li>✔ Verificare și optimizare sistem de răcire (ventilatoare & airflow)</li>
+              <li>✔ Inspecție generală a componentelor</li>
+              <li>✔ Optimizare de performanță (setări hardware & software – ex: RAM, BIOS, sistem)</li>
+            </ul>
+            <p style={{ fontSize: 16, marginBottom: 5, fontWeight: 400 }}>
+              Recomandare profesională:
+            </p>
+            <p style={{ fontSize: 16 }}>
+              Pentru a menține performanța și a preveni defectele, se recomandă efectuarea mentenanței o dată la 6–12 luni, în funcție de utilizare și mediul în care este folosit echipamentul.
+            </p>
           </div>
         </div>
       </section>
