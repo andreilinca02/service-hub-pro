@@ -1,5 +1,6 @@
 import heroImage from "@/assets/Website_Background.jpg";
 import laptopImage from "@/assets/embtech_mentenanta_laptop.jpg";
+import pcbImage from "@/assets/embtech_reparatii_PCB_microsoldering.webp";
 
 const Servicii = () => {
   return (
