@@ -130,7 +130,7 @@ const Servicii = () => {
               <li>✔ Inspecție generală a componentelor</li>
               <li>✔ Optimizare de performanță (setări hardware & software – ex: RAM, BIOS, sistem)</li>
             </ul>
-            <p style={{ fontSize: 16, marginBottom: 5, fontWeight: 400 }}>
+            <p style={{ fontSize: 16, marginBottom: 5, fontWeight: 700, fontFamily: "'Inter', sans-serif" }}>
               Recomandare profesională:
             </p>
             <p style={{ fontSize: 16 }}>
