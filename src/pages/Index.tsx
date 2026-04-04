@@ -249,7 +249,7 @@ const Index = () => {
                 {errors.email && <p style={errorStyle}>{errors.email}</p>}
               </div>
               <div>
-                <label style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 14, color: "#FFFFFF", display: "block", marginBottom: 6 }}>Mesaj</label>
+                <label style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, fontSize: 14, color: "#DCDCDC", display: "block", marginBottom: 6 }}>Mesaj</label>
                 <textarea
                   placeholder="Mesaj"
                   value={mesaj}
