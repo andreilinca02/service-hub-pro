@@ -44,8 +44,8 @@ const Servicii = () => {
               style={{ borderRadius: 20 }}
             />
           </div>
-          <div className="w-full md:w-1/2" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, color: "#FFFFFF" }}>
-            <h3 style={{ fontSize: 22, marginBottom: 15, fontWeight: 300 }}>
+          <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
+            <h3 style={{ fontSize: 22, marginBottom: 15, fontWeight: 700, fontFamily: "'Inter', sans-serif" }}>
               Reparații Hardware – Diagnosticare și Intervenții Electronice
             </h3>
             <p style={{ fontSize: 16, marginBottom: 15 }}>
@@ -77,7 +77,7 @@ const Servicii = () => {
               <li>✔ Costuri optimizate față de înlocuirea completă</li>
               <li>✔ Comunicare clară înainte de orice intervenție</li>
             </ul>
-            <p style={{ fontSize: 16, marginBottom: 5, fontWeight: 400 }}>
+            <p style={{ fontSize: 16, marginBottom: 5, fontWeight: 700, fontFamily: "'Inter', sans-serif" }}>
               Recomandare:
             </p>
             <p style={{ fontSize: 16 }}>
@@ -98,8 +98,8 @@ const Servicii = () => {
               style={{ borderRadius: 20 }}
             />
           </div>
-          <div className="w-full md:w-1/2" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, color: "#FFFFFF" }}>
-            <h3 style={{ fontSize: 22, marginBottom: 15, fontWeight: 300 }}>
+          <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
+            <h3 style={{ fontSize: 22, marginBottom: 15, fontWeight: 700, fontFamily: "'Inter', sans-serif" }}>
               Mentenanță Laptop / PC – Preventie si performanta
             </h3>
             <p style={{ fontSize: 16, marginBottom: 15 }}>
@@ -130,7 +130,7 @@ const Servicii = () => {
               <li>✔ Inspecție generală a componentelor</li>
               <li>✔ Optimizare de performanță (setări hardware & software – ex: RAM, BIOS, sistem)</li>
             </ul>
-            <p style={{ fontSize: 16, marginBottom: 5, fontWeight: 400 }}>
+            <p style={{ fontSize: 16, marginBottom: 5, fontWeight: 700, fontFamily: "'Inter', sans-serif" }}>
               Recomandare profesională:
             </p>
             <p style={{ fontSize: 16 }}>
