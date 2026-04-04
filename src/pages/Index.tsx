@@ -10,7 +10,7 @@ const services = [
 ];
 
 const errorStyle: React.CSSProperties = {
-  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+  fontFamily: "'Inter', sans-serif",
   fontWeight: 300,
   fontSize: 12,
   color: "#ef4444",
@@ -48,15 +48,15 @@ const Index = () => {
       <header className="flex items-center justify-center gap-6 py-5">
         <a
           href="/"
-          className="px-6 py-2 bg-background text-foreground font-light text-sm tracking-wide hover:opacity-70 transition-opacity"
-          style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300 }}
+          className="px-6 py-2 bg-background text-sm tracking-wide hover:opacity-70 transition-opacity"
+          style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, color: "#DCDCDC" }}
         >
           Acasă
         </a>
         <a
           href="/servicii"
-          className="px-6 py-2 bg-background text-foreground font-light text-sm tracking-wide hover:opacity-70 transition-opacity"
-          style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300 }}
+          className="px-6 py-2 bg-background text-sm tracking-wide hover:opacity-70 transition-opacity"
+          style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, color: "#DCDCDC" }}
         >
           Servicii
         </a>
@@ -76,9 +76,9 @@ const Index = () => {
         />
         <a
           href="mailto:contact@emb-tech.ro"
-          className="px-10 py-3 text-lg font-light border border-foreground bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
+          className="px-10 py-3 text-lg border border-foreground bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
           style={{
-            fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+            fontFamily: "'Inter', sans-serif",
             fontWeight: 300,
             borderRadius: 25,
             marginTop: 25,
@@ -119,10 +119,10 @@ const Index = () => {
               <p
                 className="text-center mt-4"
                 style={{
-                  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                  fontFamily: "'Inter', sans-serif",
                   fontWeight: 300,
                   fontSize: 15,
-                  color: "#FFFFFF",
+                  color: "#DCDCDC",
                 }}
               >
                 {service.desc}
@@ -159,10 +159,10 @@ const Index = () => {
             <p
               className="text-center mt-4"
               style={{
-                fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                fontFamily: "'Inter', sans-serif",
                 fontWeight: 300,
                 fontSize: 15,
-                color: "#FFFFFF",
+                color: "#DCDCDC",
               }}
             >
               platforme AUTOSAR, comunicații CAN/Ethernet, diagnostică, RTOS, debugging
@@ -182,10 +182,10 @@ const Index = () => {
         <p
           className="text-center"
           style={{
-            fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+            fontFamily: "'Inter', sans-serif",
             fontWeight: 300,
             fontSize: 15,
-            color: "#FFFFFF",
+            color: "#DCDCDC",
             marginTop: 10,
             marginBottom: 30,
             lineHeight: 1.6,
@@ -210,7 +210,7 @@ const Index = () => {
           >
             <div className="flex flex-col flex-1 justify-center" style={{ gap: 20 }}>
               <div>
-                <label style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 14, color: "#FFFFFF", display: "block", marginBottom: 6 }}>Nume și Prenume (opțional)</label>
+                <label style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, fontSize: 14, color: "#DCDCDC", display: "block", marginBottom: 6 }}>Nume și Prenume (opțional)</label>
                 <input
                   type="text"
                   placeholder="Nume și prenume"
@@ -221,14 +221,14 @@ const Index = () => {
                     border: "1px solid hsl(var(--form-border))",
                     borderRadius: 12,
                     paddingLeft: 15,
-                    fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                    fontFamily: "'Inter', sans-serif",
                     fontWeight: 300,
                     fontSize: 16,
                   }}
                 />
               </div>
               <div>
-                <label style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 14, color: "#FFFFFF", display: "block", marginBottom: 6 }}>Email</label>
+                <label style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, fontSize: 14, color: "#DCDCDC", display: "block", marginBottom: 6 }}>Email</label>
                 <input
                   type="email"
                   placeholder="Email"
@@ -241,7 +241,7 @@ const Index = () => {
                     border: errors.email ? "1px solid #ef4444" : "1px solid hsl(var(--form-border))",
                     borderRadius: 12,
                     paddingLeft: 15,
-                    fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                    fontFamily: "'Inter', sans-serif",
                     fontWeight: 300,
                     fontSize: 16,
                   }}
@@ -249,7 +249,7 @@ const Index = () => {
                 {errors.email && <p style={errorStyle}>{errors.email}</p>}
               </div>
               <div>
-                <label style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 14, color: "#FFFFFF", display: "block", marginBottom: 6 }}>Mesaj</label>
+                <label style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, fontSize: 14, color: "#DCDCDC", display: "block", marginBottom: 6 }}>Mesaj</label>
                 <textarea
                   placeholder="Mesaj"
                   value={mesaj}
@@ -262,7 +262,7 @@ const Index = () => {
                     borderRadius: 12,
                     paddingLeft: 15,
                     paddingTop: 15,
-                    fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                    fontFamily: "'Inter', sans-serif",
                     fontWeight: 300,
                     fontSize: 16,
                   }}
@@ -276,7 +276,7 @@ const Index = () => {
                   height: 60,
                   border: "1px solid white",
                   borderRadius: 20,
-                  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                  fontFamily: "'Inter', sans-serif",
                   fontWeight: 300,
                   fontSize: 18,
                 }}
@@ -311,10 +311,10 @@ const Index = () => {
                   borderRadius: 15,
                   padding: 20,
                   minHeight: 100,
-                  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                  fontFamily: "'Inter', sans-serif",
                   fontWeight: 300,
                   fontSize: 15,
-                  color: "#FFFFFF",
+                  color: "#DCDCDC",
                 }}
               >
                 <p style={{ marginBottom: 10 }}>Furnizați modelul exact al dispozitivului (de exemplu, o placă, un laptop, un controller, un modul).</p>
@@ -334,7 +334,7 @@ const Index = () => {
                 }}
               >
                 <Mail size={20} className="text-foreground shrink-0" />
-                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 15 }}>
+                <span className="text-foreground" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, fontSize: 15, color: "#DCDCDC" }}>
                   emb.tech.service@gmail.com
                 </span>
               </div>
@@ -351,7 +351,7 @@ const Index = () => {
                 }}
               >
                 <Phone size={20} className="text-foreground shrink-0" />
-                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 15 }}>
+                <span className="text-foreground" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, fontSize: 15, color: "#DCDCDC" }}>
                   0777777777
                 </span>
               </div>
@@ -368,7 +368,7 @@ const Index = () => {
                 }}
               >
                 <Instagram size={20} className="text-foreground shrink-0" />
-                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 15 }}>
+                <span className="text-foreground" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, fontSize: 15, color: "#DCDCDC" }}>
                   @emb.tech
                 </span>
               </div>
