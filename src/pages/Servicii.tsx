@@ -9,15 +9,15 @@ const Servicii = () => {
       <header className="flex items-center justify-center gap-6 py-5">
         <a
           href="/"
-          className="px-6 py-2 bg-background text-foreground font-light text-sm tracking-wide hover:opacity-70 transition-opacity"
-          style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300 }}
+          className="px-6 py-2 bg-background text-sm tracking-wide hover:opacity-70 transition-opacity"
+          style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, color: "#DCDCDC" }}
         >
           Acasă
         </a>
         <a
           href="/servicii"
-          className="px-6 py-2 bg-background text-foreground font-light text-sm tracking-wide hover:opacity-70 transition-opacity"
-          style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, borderBottom: "1px solid white" }}
+          className="px-6 py-2 bg-background text-sm tracking-wide hover:opacity-70 transition-opacity"
+          style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, color: "#DCDCDC", borderBottom: "1px solid white" }}
         >
           Servicii
         </a>
