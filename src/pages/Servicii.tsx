@@ -44,8 +44,8 @@ const Servicii = () => {
               style={{ borderRadius: 20 }}
             />
           </div>
-          <div className="w-full md:w-1/2" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, color: "#FFFFFF" }}>
-            <h3 style={{ fontSize: 22, marginBottom: 15, fontWeight: 300 }}>
+          <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
+            <h3 style={{ fontSize: 22, marginBottom: 15, fontWeight: 700, fontFamily: "'Inter', sans-serif" }}>
               Reparații Hardware – Diagnosticare și Intervenții Electronice
             </h3>
             <p style={{ fontSize: 16, marginBottom: 15 }}>
