@@ -221,7 +221,7 @@ const Index = () => {
                     border: "1px solid hsl(var(--form-border))",
                     borderRadius: 12,
                     paddingLeft: 15,
-                    fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                    fontFamily: "'Inter', sans-serif",
                     fontWeight: 300,
                     fontSize: 16,
                   }}
