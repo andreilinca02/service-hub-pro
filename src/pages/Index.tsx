@@ -182,10 +182,10 @@ const Index = () => {
         <p
           className="text-center"
           style={{
-            fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+            fontFamily: "'Inter', sans-serif",
             fontWeight: 300,
             fontSize: 15,
-            color: "#FFFFFF",
+            color: "#DCDCDC",
             marginTop: 10,
             marginBottom: 30,
             lineHeight: 1.6,
