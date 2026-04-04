@@ -228,7 +228,7 @@ const Index = () => {
                 />
               </div>
               <div>
-                <label style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 14, color: "#FFFFFF", display: "block", marginBottom: 6 }}>Email</label>
+                <label style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, fontSize: 14, color: "#DCDCDC", display: "block", marginBottom: 6 }}>Email</label>
                 <input
                   type="email"
                   placeholder="Email"
