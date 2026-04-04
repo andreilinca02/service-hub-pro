@@ -10,7 +10,7 @@ const services = [
 ];
 
 const errorStyle: React.CSSProperties = {
-  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+  fontFamily: "'Inter', sans-serif",
   fontWeight: 300,
   fontSize: 12,
   color: "#ef4444",
