@@ -210,7 +210,7 @@ const Index = () => {
           >
             <div className="flex flex-col flex-1 justify-center" style={{ gap: 20 }}>
               <div>
-                <label style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 14, color: "#FFFFFF", display: "block", marginBottom: 6 }}>Nume și Prenume (opțional)</label>
+                <label style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, fontSize: 14, color: "#DCDCDC", display: "block", marginBottom: 6 }}>Nume și Prenume (opțional)</label>
                 <input
                   type="text"
                   placeholder="Nume și prenume"
