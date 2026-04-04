@@ -351,7 +351,7 @@ const Index = () => {
                 }}
               >
                 <Phone size={20} className="text-foreground shrink-0" />
-                <span className="text-foreground" style={{ fontFamily: "'Helvetica Neue', Helvetica, sans-serif", fontWeight: 300, fontSize: 15 }}>
+                <span className="text-foreground" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, fontSize: 15, color: "#DCDCDC" }}>
                   0777777777
                 </span>
               </div>
