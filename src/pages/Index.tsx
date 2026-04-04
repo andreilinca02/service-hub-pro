@@ -311,10 +311,10 @@ const Index = () => {
                   borderRadius: 15,
                   padding: 20,
                   minHeight: 100,
-                  fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                  fontFamily: "'Inter', sans-serif",
                   fontWeight: 300,
                   fontSize: 15,
-                  color: "#FFFFFF",
+                  color: "#DCDCDC",
                 }}
               >
                 <p style={{ marginBottom: 10 }}>Furnizați modelul exact al dispozitivului (de exemplu, o placă, un laptop, un controller, un modul).</p>
