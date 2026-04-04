@@ -77,7 +77,7 @@ const Servicii = () => {
               <li>✔ Costuri optimizate față de înlocuirea completă</li>
               <li>✔ Comunicare clară înainte de orice intervenție</li>
             </ul>
-            <p style={{ fontSize: 16, marginBottom: 5, fontWeight: 400 }}>
+            <p style={{ fontSize: 16, marginBottom: 5, fontWeight: 700, fontFamily: "'Inter', sans-serif" }}>
               Recomandare:
             </p>
             <p style={{ fontSize: 16 }}>
