@@ -159,10 +159,10 @@ const Index = () => {
             <p
               className="text-center mt-4"
               style={{
-                fontFamily: "'Helvetica Neue', Helvetica, sans-serif",
+                fontFamily: "'Inter', sans-serif",
                 fontWeight: 300,
                 fontSize: 15,
-                color: "#FFFFFF",
+                color: "#DCDCDC",
               }}
             >
               platforme AUTOSAR, comunicații CAN/Ethernet, diagnostică, RTOS, debugging
