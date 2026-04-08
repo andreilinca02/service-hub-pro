@@ -1,8 +1,21 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import heroImage from "@/assets/Website_Background.jpg";
 import laptopImage from "@/assets/embtech_mentenanta_laptop.jpg";
 import pcbImage from "@/assets/embtech_reparatii_PCB_microsoldering.webp";
 
 const Servicii = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const el = document.querySelector(location.hash);
+      if (el) {
+        setTimeout(() => el.scrollIntoView({ behavior: "smooth" }), 100);
+      }
+    }
+  }, [location]);
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
