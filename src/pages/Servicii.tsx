@@ -1,8 +1,21 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import heroImage from "@/assets/Website_Background.jpg";
 import laptopImage from "@/assets/embtech_mentenanta_laptop.jpg";
 import pcbImage from "@/assets/embtech_reparatii_PCB_microsoldering.webp";
 
 const Servicii = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const el = document.querySelector(location.hash);
+      if (el) {
+        setTimeout(() => el.scrollIntoView({ behavior: "smooth" }), 100);
+      }
+    }
+  }, [location]);
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -34,7 +47,7 @@ const Servicii = () => {
       </section>
 
       {/* Reparații Hardware Section */}
-      <section className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
+      <section id="reparatii-hardware" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
         {/* Top row: image LEFT, text RIGHT */}
         <div className="flex flex-col md:flex-row items-start justify-between" style={{ gap: 40 }}>
           <div className="w-full md:w-1/2">
@@ -101,7 +114,7 @@ const Servicii = () => {
       </section>
 
       {/* Mentenanță Laptop/PC Section - image RIGHT, text LEFT */}
-      <section className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
+      <section id="mentenanta-laptop-pc" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
         {/* Row 1: text LEFT, image RIGHT */}
         <div className="flex flex-col md:flex-row-reverse items-start justify-between" style={{ gap: 40 }}>
           <div className="w-full md:w-1/2">
