@@ -46,7 +46,7 @@ const Servicii = () => {
             />
           </div>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
-            <h3 style={{ fontSize: 22, marginBottom: 15, fontWeight: 700, fontFamily: "'Inter', sans-serif" }}>
+            <h3 className="text-center font-bold text-2xl" style={{ marginBottom: 15, fontFamily: "'Inter', sans-serif" }}>
               Reparații Hardware – Diagnosticare și Intervenții Electronice
             </h3>
             <p style={{ fontSize: 16, marginBottom: 15 }}>
@@ -64,37 +64,37 @@ const Servicii = () => {
         {/* Bottom row: Serviciile includ LEFT, Beneficii RIGHT */}
         <div className="flex flex-col md:flex-row items-start" style={{ gap: 40, marginTop: 30 }}>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
-            <p style={{ fontSize: 16, marginBottom: 10 }}>
-              Serviciile includ:
+            <p className="text-center font-bold mb-[15px]" style={{ fontSize: 16 }}>
+              Serviciile includ
             </p>
             <ul style={{ fontSize: 16, paddingLeft: 0, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7 }}>
-              <li>✔ Diagnosticare hardware</li>
-              <li>✔ Reparații plăci de bază (în limita intervențiilor disponibile)</li>
-              <li>✔ Refacere trasee electrice (unde este posibil)</li>
-              <li>✔ Înlocuire componente defecte</li>
-              <li>✔ Reparații / înlocuire mufe (alimentare, USB etc.)</li>
-              <li>✔ Upgrade-uri și optimizări hardware</li>
+              <li className="text-center">✔ Diagnosticare hardware</li>
+              <li className="text-center">✔ Reparații plăci de bază (în limita intervențiilor disponibile)</li>
+              <li className="text-center">✔ Refacere trasee electrice (unde este posibil)</li>
+              <li className="text-center">✔ Înlocuire componente defecte</li>
+              <li className="text-center">✔ Reparații / înlocuire mufe (alimentare, USB etc.)</li>
+              <li className="text-center">✔ Upgrade-uri și optimizări hardware</li>
             </ul>
           </div>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
-            <p style={{ fontSize: 16, marginBottom: 10 }}>
-              Beneficii:
+            <p className="text-center font-bold mb-[15px]" style={{ fontSize: 16 }}>
+              Beneficii
             </p>
             <ul style={{ fontSize: 16, paddingLeft: 0, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7 }}>
-              <li>✔ Evaluare corectă și transparentă a defectului</li>
-              <li>✔ Soluții eficiente, adaptate fiecărui caz</li>
-              <li>✔ Costuri optimizate față de înlocuirea completă</li>
-              <li>✔ Comunicare clară înainte de orice intervenție</li>
+              <li className="text-center">✔ Evaluare corectă și transparentă a defectului</li>
+              <li className="text-center">✔ Soluții eficiente, adaptate fiecărui caz</li>
+              <li className="text-center">✔ Costuri optimizate față de înlocuirea completă</li>
+              <li className="text-center">✔ Comunicare clară înainte de orice intervenție</li>
             </ul>
           </div>
         </div>
 
         {/* Recomandare underneath */}
-        <div style={{ marginTop: 30, fontFamily: "'Inter', sans-serif", color: "#DCDCDC" }}>
-          <p style={{ fontSize: 16, marginBottom: 5, fontWeight: 700, fontFamily: "'Inter', sans-serif" }}>
-            Recomandare:
+        <div className="mt-[80px] mb-[15px]" style={{ fontFamily: "'Inter', sans-serif", color: "#DCDCDC" }}>
+          <p className="text-center font-bold mb-[10px]" style={{ fontSize: 16, fontFamily: "'Inter', sans-serif" }}>
+            Recomandare
           </p>
-          <p style={{ fontSize: 16, fontWeight: 300 }}>
+          <p className="text-center" style={{ fontSize: 16, fontWeight: 300 }}>
             În cazul problemelor hardware sau al echipamentelor nefuncționale, o diagnosticare corectă este esențială pentru alegerea celei mai bune soluții de reparație.
           </p>
         </div>
@@ -112,8 +112,8 @@ const Servicii = () => {
             />
           </div>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
-            <h3 style={{ fontSize: 22, marginBottom: 15, fontWeight: 700, fontFamily: "'Inter', sans-serif" }}>
-              Mentenanță Laptop / PC – Preventie si performanta
+            <h3 className="text-center font-bold text-2xl" style={{ marginBottom: 15, fontFamily: "'Inter', sans-serif" }}>
+              Mentenanță Laptop / PC – Prevenție și performanță
             </h3>
             <p style={{ fontSize: 16, marginBottom: 15 }}>
               Laptopurile și calculatoarele sunt esențiale în activitatea zilnică, iar funcționarea lor optimă depinde direct de starea componentelor interne. În timp, acumularea de praf și degradarea pastei termoconductoare afectează sistemul de răcire, ducând la temperaturi ridicate și performanțe instabile.
