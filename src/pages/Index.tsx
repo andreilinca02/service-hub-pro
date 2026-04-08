@@ -19,6 +19,7 @@ const errorStyle: React.CSSProperties = {
 };
 
 const Index = () => {
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [mesaj, setMesaj] = useState("");
   const [errors, setErrors] = useState<{ email?: string; mesaj?: string }>({});
@@ -110,6 +111,7 @@ const Index = () => {
               }}
               onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.backgroundColor = "#222224"; }}
               onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.backgroundColor = "#161617"; }}
+              onClick={() => { if (service.link) navigate(service.link); }}
             >
               <h3
                 className="gradient-text text-center font-black text-[20px]"
