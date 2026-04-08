@@ -46,10 +46,10 @@ const Servicii = () => {
             />
           </div>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
-            <h3 className="text-center font-bold text-2xl" style={{ marginBottom: 15, fontFamily: "'Inter', sans-serif" }}>
+            <h3 className="text-center font-bold text-2xl mt-[30px]" style={{ marginBottom: 15, fontFamily: "'Inter', sans-serif" }}>
               Reparații Hardware – Diagnosticare și Intervenții Electronice
             </h3>
-            <p style={{ fontSize: 16, marginBottom: 15 }}>
+            <p className="mt-[80px] mb-[15px]" style={{ fontSize: 16, marginBottom: 15 }}>
               Oferim servicii de diagnosticare și reparații hardware pentru laptopuri și PC-uri, inclusiv intervenții la nivel de placă de bază (PCB), acolo unde este posibil.
             </p>
             <p style={{ fontSize: 16, marginBottom: 15 }}>
@@ -113,10 +113,10 @@ const Servicii = () => {
             />
           </div>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
-            <h3 className="text-center font-bold text-2xl" style={{ marginBottom: 15, fontFamily: "'Inter', sans-serif" }}>
+            <h3 className="text-center font-bold text-2xl mt-[30px]" style={{ marginBottom: 15, fontFamily: "'Inter', sans-serif" }}>
               Mentenanță Laptop / PC – Prevenție și performanță
             </h3>
-            <p style={{ fontSize: 16, marginBottom: 15 }}>
+            <p className="mt-[80px] mb-[15px]" style={{ fontSize: 16, marginBottom: 15 }}>
               Laptopurile și calculatoarele sunt esențiale în activitatea zilnică, iar funcționarea lor optimă depinde direct de starea componentelor interne. În timp, acumularea de praf și degradarea pastei termoconductoare afectează sistemul de răcire, ducând la temperaturi ridicate și performanțe instabile.
             </p>
             <p style={{ fontSize: 16, marginBottom: 15 }}>
