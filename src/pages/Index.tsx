@@ -1,10 +1,11 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import heroImage from "@/assets/Website_Background.jpg";
 import { Mail, Phone, Instagram } from "lucide-react";
 
 const services = [
-  { title: "Reparații", desc: "diagnosticare și reparație PCB-uri, plăci de bază, mufe, înlocuire de componente, upgradeuri și optimizări" },
-  { title: "Mentenanță laptop/PC", desc: "curățare profesională interioară, înlocuire pastă termoconductoare, verificare ventilatoare și airflow, remediere erori hardware" },
+  { title: "Reparații", desc: "diagnosticare și reparație PCB-uri, plăci de bază, mufe, înlocuire de componente, upgradeuri și optimizări", link: "/servicii#reparatii-hardware" },
+  { title: "Mentenanță laptop/PC", desc: "curățare profesională interioară, înlocuire pastă termoconductoare, verificare ventilatoare și airflow, remediere erori hardware", link: "/servicii#mentenanta-laptop-pc" },
   { title: "Mentenanță consolă", desc: "curățare profesională interioară, înlocuire pastă termoconductoare, verificare ventilatoare și airflow" },
   { title: "Software", desc: "instalare/optimizare sistem de operare, update/rescriere BIOS, drivere, instalare diverse software" },
 ];
