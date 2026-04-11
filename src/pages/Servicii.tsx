@@ -240,14 +240,15 @@ const Servicii = () => {
       </section>
 
       {/* Servicii Software Section - image RIGHT, text LEFT */}
-      <section id="servicii-software" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
+      <section id="servicii-software" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 40, marginBottom: 40 }}>
+        <div className="p-[30px] md:p-[40px]" style={{ background: "#111111", border: "1px solid #2A2A2A", borderRadius: 20, boxShadow: "0 0 20px rgba(0,0,0,0.3)" }}>
         <div className="flex flex-col md:flex-row-reverse items-start justify-between" style={{ gap: 40 }}>
           <div className="w-full md:w-1/2">
             <img
               src={biosImage}
               alt="Servicii Software BIOS"
               className="w-full h-auto object-cover"
-              style={{ borderRadius: 20 }}
+              style={{ borderRadius: 15 }}
             />
           </div>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
@@ -301,6 +302,7 @@ const Servicii = () => {
           <p className="text-center" style={{ fontSize: 16, fontWeight: 300 }}>
             Reinstalarea și optimizarea sistemului sunt recomandate atunci când apar încetiniri, erori sau după o perioadă îndelungată de utilizare.
           </p>
+        </div>
         </div>
       </section>
     </div>
