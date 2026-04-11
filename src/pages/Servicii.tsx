@@ -210,6 +210,8 @@ const Servicii = () => {
 
         <div className="flex flex-col md:flex-row items-start" style={{ gap: 40, marginTop: 30 }}>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
+          </div>
+          <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
             <p className="text-center font-bold mb-[15px]" style={{ fontSize: 16 }}>
               Beneficii esențiale
             </p>
@@ -220,8 +222,6 @@ const Servicii = () => {
               <li className="text-center">✔ Protecție împotriva uzurii premature</li>
               <li className="text-center">✔ Extinderea duratei de viață a echipamentului</li>
             </ul>
-          </div>
-          <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
           </div>
         </div>
 
