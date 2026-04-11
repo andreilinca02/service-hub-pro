@@ -208,9 +208,7 @@ const Servicii = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row items-start" style={{ gap: 40, marginTop: 30 }}>
-          <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
-          </div>
+        <div className="flex justify-center" style={{ marginTop: 30 }}>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
             <p className="text-center font-bold mb-[15px]" style={{ fontSize: 16 }}>
               Beneficii esențiale
