@@ -3,6 +3,8 @@ import { useLocation } from "react-router-dom";
 import heroImage from "@/assets/Website_Background.jpg";
 import laptopImage from "@/assets/embtech_mentenanta_laptop.jpg";
 import pcbImage from "@/assets/embtech_reparatii_PCB_microsoldering.webp";
+import consoleImage from "@/assets/embtech_mentenanta_console.webp";
+import biosImage from "@/assets/embtech_software_BIOS.jpeg";
 
 const Servicii = () => {
   const location = useLocation();
@@ -175,6 +177,125 @@ const Servicii = () => {
           </p>
           <p className="text-center" style={{ fontSize: 16, fontWeight: 300 }}>
             Pentru a menține performanța și a preveni defectele, se recomandă efectuarea mentenanței o dată la 6–12 luni, în funcție de utilizare și mediul în care este folosit echipamentul.
+          </p>
+        </div>
+      </section>
+
+      {/* Mentenanță Consolă Section - image LEFT, text RIGHT */}
+      <section id="mentenanta-consola" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
+        <div className="flex flex-col md:flex-row items-start justify-between" style={{ gap: 40 }}>
+          <div className="w-full md:w-1/2">
+            <img
+              src={consoleImage}
+              alt="Mentenanță Consolă"
+              className="w-full h-auto object-cover"
+              style={{ borderRadius: 20 }}
+            />
+          </div>
+          <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
+            <h3 className="text-center font-bold text-2xl mt-[30px]" style={{ marginBottom: 15, fontFamily: "'Inter', sans-serif" }}>
+              Mentenanță profesională pentru console
+            </h3>
+            <p className="mt-[80px] mb-[15px]" style={{ fontSize: 16, marginBottom: 15 }}>
+              Consolele moderne sunt echipamente de înaltă performanță, proiectate pentru experiențe fluide și sesiuni intense de gaming. În timp, acumularea de praf și uzura componentelor interne pot afecta eficiența sistemului de răcire, conducând la temperaturi ridicate, zgomot excesiv și scăderi de performanță.
+            </p>
+            <p style={{ fontSize: 16, marginBottom: 15 }}>
+              Prin servicii de mentenanță realizate cu atenție la detalii — curățare internă completă, înlocuire pastă termoconductoare și verificarea sistemului de răcire — consola ta este readusă la standardele optime de funcționare.
+            </p>
+            <p style={{ fontSize: 16 }}>
+              Rezultatul este o experiență de gaming mai silențioasă, mai stabilă și mai fiabilă, chiar și în cele mai solicitante momente.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col md:flex-row items-start" style={{ gap: 40, marginTop: 30 }}>
+          <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
+            <p className="text-center font-bold mb-[15px]" style={{ fontSize: 16 }}>
+              Beneficii esențiale
+            </p>
+            <ul style={{ fontSize: 16, paddingLeft: 0, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7 }}>
+              <li className="text-center">✔ Performanță constantă și fără compromisuri</li>
+              <li className="text-center">✔ Temperatură controlată și eficiență termică optimă</li>
+              <li className="text-center">✔ Reducerea semnificativă a zgomotului</li>
+              <li className="text-center">✔ Protecție împotriva uzurii premature</li>
+              <li className="text-center">✔ Extinderea duratei de viață a echipamentului</li>
+            </ul>
+          </div>
+          <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
+          </div>
+        </div>
+
+        <div className="mt-[80px] mb-[15px]" style={{ fontFamily: "'Inter', sans-serif", color: "#DCDCDC" }}>
+          <p className="text-center font-bold mb-[10px]" style={{ fontSize: 16, fontFamily: "'Inter', sans-serif" }}>
+            Recomandare profesională
+          </p>
+          <p className="text-center" style={{ fontSize: 16, fontWeight: 300 }}>
+            Pentru a păstra performanța și fiabilitatea la standarde optime, se recomandă efectuarea mentenanței la un interval de 6–12 luni, în funcție de condițiile de utilizare.
+          </p>
+        </div>
+      </section>
+
+      {/* Servicii Software Section - image RIGHT, text LEFT */}
+      <section id="servicii-software" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
+        <div className="flex flex-col md:flex-row-reverse items-start justify-between" style={{ gap: 40 }}>
+          <div className="w-full md:w-1/2">
+            <img
+              src={biosImage}
+              alt="Servicii Software BIOS"
+              className="w-full h-auto object-cover"
+              style={{ borderRadius: 20 }}
+            />
+          </div>
+          <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
+            <h3 className="text-center font-bold text-2xl mt-[30px]" style={{ marginBottom: 15, fontFamily: "'Inter', sans-serif" }}>
+              Servicii Software – Instalare, Optimizare și Configurare Avansată
+            </h3>
+            <p className="mt-[80px] mb-[15px]" style={{ fontSize: 16, marginBottom: 15 }}>
+              Un sistem de operare instalat corect și configurat optim este esențial pentru performanța, stabilitatea și securitatea oricărui laptop sau PC.
+            </p>
+            <p style={{ fontSize: 16, marginBottom: 15 }}>
+              Instalăm sistemul de operare curat, fără aplicații inutile, și îl configurăm pentru performanță, stabilitate și securitate optimă. Sistemul tău va fi pregătit de utilizare imediată, fără erori sau încetiniri.
+            </p>
+            <p style={{ fontSize: 16 }}>
+              Realizăm, de asemenea, actualizări și configurări BIOS (UEFI) în siguranță, pentru a asigura compatibilitatea și funcționarea corectă a componentelor.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col md:flex-row items-start" style={{ gap: 40, marginTop: 30 }}>
+          <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
+            <p className="text-center font-bold mb-[15px]" style={{ fontSize: 16 }}>
+              Serviciile includ
+            </p>
+            <ul style={{ fontSize: 16, paddingLeft: 0, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7 }}>
+              <li className="text-center">✔ Instalare sistem de operare (clean install, fără aplicații inutile)</li>
+              <li className="text-center">✔ Instalare și configurare drivere corecte</li>
+              <li className="text-center">✔ Instalare și configurare software esențial</li>
+              <li className="text-center">✔ Optimizare performanță și consum de resurse</li>
+              <li className="text-center">✔ Configurare securitate sistem</li>
+              <li className="text-center">✔ Actualizare / rescriere BIOS (UEFI) în condiții de siguranță</li>
+            </ul>
+          </div>
+          <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
+            <p className="text-center font-bold mb-[15px]" style={{ fontSize: 16 }}>
+              Beneficii
+            </p>
+            <ul style={{ fontSize: 16, paddingLeft: 0, listStyleType: "none", display: "flex", flexDirection: "column", gap: 7 }}>
+              <li className="text-center">✔ Sistem rapid, stabil și pregătit de utilizare imediată</li>
+              <li className="text-center">✔ Eliminarea erorilor și aplicațiilor nedorite</li>
+              <li className="text-center">✔ Performanță optimizată pentru activități zilnice sau profesionale</li>
+              <li className="text-center">✔ Securitate îmbunătățită împotriva riscurilor software</li>
+              <li className="text-center">✔ Compatibilitate extinsă cu hardware nou</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-[80px] mb-[15px]" style={{ fontFamily: "'Inter', sans-serif", color: "#DCDCDC" }}>
+          <p className="text-center font-bold mb-[10px]" style={{ fontSize: 16, fontFamily: "'Inter', sans-serif" }}>
+            Recomandare
+          </p>
+          <p className="text-center" style={{ fontSize: 16, fontWeight: 300 }}>
+            Reinstalarea și optimizarea sistemului sunt recomandate atunci când apar încetiniri, erori sau după o perioadă îndelungată de utilizare.
           </p>
         </div>
       </section>
