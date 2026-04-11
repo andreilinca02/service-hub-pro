@@ -49,7 +49,8 @@ const Servicii = () => {
       </section>
 
       {/* Reparații Hardware Section */}
-      <section id="reparatii-hardware" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
+      <section id="reparatii-hardware" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 40, marginBottom: 40 }}>
+        <div className="p-[30px] md:p-[40px]" style={{ background: "#111111", border: "1px solid #2A2A2A", borderRadius: 20, boxShadow: "0 0 20px rgba(0,0,0,0.3)" }}>
         {/* Top row: image LEFT, text RIGHT */}
         <div className="flex flex-col md:flex-row items-start justify-between" style={{ gap: 40 }}>
           <div className="w-full md:w-1/2">
@@ -57,7 +58,7 @@ const Servicii = () => {
               src={pcbImage}
               alt="Reparații Hardware PCB"
               className="w-full h-auto object-cover"
-              style={{ borderRadius: 20 }}
+              style={{ borderRadius: 15 }}
             />
           </div>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
@@ -113,10 +114,12 @@ const Servicii = () => {
             În cazul problemelor hardware sau al echipamentelor nefuncționale, o diagnosticare corectă este esențială pentru alegerea celei mai bune soluții de reparație.
           </p>
         </div>
+        </div>
       </section>
 
       {/* Mentenanță Laptop/PC Section - image RIGHT, text LEFT */}
-      <section id="mentenanta-laptop-pc" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
+      <section id="mentenanta-laptop-pc" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 40, marginBottom: 40 }}>
+        <div className="p-[30px] md:p-[40px]" style={{ background: "#111111", border: "1px solid #2A2A2A", borderRadius: 20, boxShadow: "0 0 20px rgba(0,0,0,0.3)" }}>
         {/* Row 1: text LEFT, image RIGHT */}
         <div className="flex flex-col md:flex-row-reverse items-start justify-between" style={{ gap: 40 }}>
           <div className="w-full md:w-1/2">
@@ -124,7 +127,7 @@ const Servicii = () => {
               src={laptopImage}
               alt="Mentenanță Laptop"
               className="w-full h-auto object-cover"
-              style={{ borderRadius: 20 }}
+              style={{ borderRadius: 15 }}
             />
           </div>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
@@ -179,17 +182,19 @@ const Servicii = () => {
             Pentru a menține performanța și a preveni defectele, se recomandă efectuarea mentenanței o dată la 6–12 luni, în funcție de utilizare și mediul în care este folosit echipamentul.
           </p>
         </div>
+        </div>
       </section>
 
       {/* Mentenanță Consolă Section - image LEFT, text RIGHT */}
-      <section id="mentenanta-consola" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
+      <section id="mentenanta-consola" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 40, marginBottom: 40 }}>
+        <div className="p-[30px] md:p-[40px]" style={{ background: "#111111", border: "1px solid #2A2A2A", borderRadius: 20, boxShadow: "0 0 20px rgba(0,0,0,0.3)" }}>
         <div className="flex flex-col md:flex-row items-start justify-between" style={{ gap: 40 }}>
           <div className="w-full md:w-1/2">
             <img
               src={consoleImage}
               alt="Mentenanță Consolă"
               className="w-full h-auto object-cover"
-              style={{ borderRadius: 20 }}
+              style={{ borderRadius: 15 }}
             />
           </div>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
@@ -231,17 +236,19 @@ const Servicii = () => {
             Pentru a păstra performanța și fiabilitatea la standarde optime, se recomandă efectuarea mentenanței la un interval de 6–12 luni, în funcție de condițiile de utilizare.
           </p>
         </div>
+        </div>
       </section>
 
       {/* Servicii Software Section - image RIGHT, text LEFT */}
-      <section id="servicii-software" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
+      <section id="servicii-software" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 40, marginBottom: 40 }}>
+        <div className="p-[30px] md:p-[40px]" style={{ background: "#111111", border: "1px solid #2A2A2A", borderRadius: 20, boxShadow: "0 0 20px rgba(0,0,0,0.3)" }}>
         <div className="flex flex-col md:flex-row-reverse items-start justify-between" style={{ gap: 40 }}>
           <div className="w-full md:w-1/2">
             <img
               src={biosImage}
               alt="Servicii Software BIOS"
               className="w-full h-auto object-cover"
-              style={{ borderRadius: 20 }}
+              style={{ borderRadius: 15 }}
             />
           </div>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
@@ -295,6 +302,7 @@ const Servicii = () => {
           <p className="text-center" style={{ fontSize: 16, fontWeight: 300 }}>
             Reinstalarea și optimizarea sistemului sunt recomandate atunci când apar încetiniri, erori sau după o perioadă îndelungată de utilizare.
           </p>
+        </div>
         </div>
       </section>
     </div>
