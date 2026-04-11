@@ -186,14 +186,15 @@ const Servicii = () => {
       </section>
 
       {/* Mentenanță Consolă Section - image LEFT, text RIGHT */}
-      <section id="mentenanta-consola" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 60, marginBottom: 60 }}>
+      <section id="mentenanta-consola" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 40, marginBottom: 40 }}>
+        <div className="p-[30px] md:p-[40px]" style={{ background: "#111111", border: "1px solid #2A2A2A", borderRadius: 20, boxShadow: "0 0 20px rgba(0,0,0,0.3)" }}>
         <div className="flex flex-col md:flex-row items-start justify-between" style={{ gap: 40 }}>
           <div className="w-full md:w-1/2">
             <img
               src={consoleImage}
               alt="Mentenanță Consolă"
               className="w-full h-auto object-cover"
-              style={{ borderRadius: 20 }}
+              style={{ borderRadius: 15 }}
             />
           </div>
           <div className="w-full md:w-1/2" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, color: "#DCDCDC" }}>
@@ -234,6 +235,7 @@ const Servicii = () => {
           <p className="text-center" style={{ fontSize: 16, fontWeight: 300 }}>
             Pentru a păstra performanța și fiabilitatea la standarde optime, se recomandă efectuarea mentenanței la un interval de 6–12 luni, în funcție de condițiile de utilizare.
           </p>
+        </div>
         </div>
       </section>
 
