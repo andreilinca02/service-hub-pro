@@ -3,6 +3,8 @@ import { useLocation } from "react-router-dom";
 import heroImage from "@/assets/Website_Background.jpg";
 import laptopImage from "@/assets/embtech_mentenanta_laptop.jpg";
 import pcbImage from "@/assets/embtech_reparatii_PCB_microsoldering.webp";
+import consoleImage from "@/assets/embtech_mentenanta_console.webp";
+import biosImage from "@/assets/embtech_software_BIOS.jpeg";
 
 const Servicii = () => {
   const location = useLocation();
