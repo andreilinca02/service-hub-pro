@@ -205,8 +205,8 @@ const Index = () => {
           <div
             className="w-full flex flex-col"
             style={{
-              background: "hsl(var(--form-bg))",
-              border: "1px solid hsl(var(--form-border))",
+              backgroundColor: "#161617",
+              border: "1px solid hsl(var(--card-border))",
               borderRadius: 20,
               padding: 35,
             }}
@@ -293,8 +293,8 @@ const Index = () => {
           <div
             className="w-full flex flex-col"
             style={{
-              background: "hsl(var(--form-bg))",
-              border: "1px solid hsl(var(--form-border))",
+              backgroundColor: "#161617",
+              border: "1px solid hsl(var(--card-border))",
               borderRadius: 20,
               padding: 35,
             }}
