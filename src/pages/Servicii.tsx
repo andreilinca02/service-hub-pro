@@ -50,7 +50,7 @@ const Servicii = () => {
 
       {/* Reparații Hardware Section */}
       <section id="reparatii-hardware" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 40, marginBottom: 40 }}>
-        <div className="p-[30px] md:p-[40px]" style={{ background: "#111111", border: "1px solid #2A2A2A", borderRadius: 20, boxShadow: "0 0 20px rgba(0,0,0,0.3)" }}>
+        <div className="p-[30px] md:p-[40px]" style={{ background: "#161617", border: "1px solid #5A5A5A", borderRadius: 20, boxShadow: "0 0 20px rgba(0,0,0,0.3)" }}>
         {/* Top row: image LEFT, text RIGHT */}
         <div className="flex flex-col md:flex-row items-start justify-between" style={{ gap: 40 }}>
           <div className="w-full md:w-1/2">
@@ -119,7 +119,7 @@ const Servicii = () => {
 
       {/* Mentenanță Laptop/PC Section - image RIGHT, text LEFT */}
       <section id="mentenanta-laptop-pc" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 40, marginBottom: 40 }}>
-        <div className="p-[30px] md:p-[40px]" style={{ background: "#111111", border: "1px solid #2A2A2A", borderRadius: 20, boxShadow: "0 0 20px rgba(0,0,0,0.3)" }}>
+        <div className="p-[30px] md:p-[40px]" style={{ background: "#161617", border: "1px solid #5A5A5A", borderRadius: 20, boxShadow: "0 0 20px rgba(0,0,0,0.3)" }}>
         {/* Row 1: text LEFT, image RIGHT */}
         <div className="flex flex-col md:flex-row-reverse items-start justify-between" style={{ gap: 40 }}>
           <div className="w-full md:w-1/2">
@@ -187,7 +187,7 @@ const Servicii = () => {
 
       {/* Mentenanță Consolă Section - image LEFT, text RIGHT */}
       <section id="mentenanta-consola" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 40, marginBottom: 40 }}>
-        <div className="p-[30px] md:p-[40px]" style={{ background: "#111111", border: "1px solid #2A2A2A", borderRadius: 20, boxShadow: "0 0 20px rgba(0,0,0,0.3)" }}>
+        <div className="p-[30px] md:p-[40px]" style={{ background: "#161617", border: "1px solid #5A5A5A", borderRadius: 20, boxShadow: "0 0 20px rgba(0,0,0,0.3)" }}>
         <div className="flex flex-col md:flex-row items-start justify-between" style={{ gap: 40 }}>
           <div className="w-full md:w-1/2">
             <img
@@ -241,7 +241,7 @@ const Servicii = () => {
 
       {/* Servicii Software Section - image RIGHT, text LEFT */}
       <section id="servicii-software" className="px-4 max-w-5xl mx-auto" style={{ marginTop: 40, marginBottom: 40 }}>
-        <div className="p-[30px] md:p-[40px]" style={{ background: "#111111", border: "1px solid #2A2A2A", borderRadius: 20, boxShadow: "0 0 20px rgba(0,0,0,0.3)" }}>
+        <div className="p-[30px] md:p-[40px]" style={{ background: "#161617", border: "1px solid #5A5A5A", borderRadius: 20, boxShadow: "0 0 20px rgba(0,0,0,0.3)" }}>
         <div className="flex flex-col md:flex-row-reverse items-start justify-between" style={{ gap: 40 }}>
           <div className="w-full md:w-1/2">
             <img
