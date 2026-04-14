@@ -117,7 +117,7 @@ const Index = () => {
             >
               <Phone size={20} color="#189D0E" />
             </div>
-            <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, fontSize: 18, color: "#DCDCDC", marginLeft: 12 }}>
+            <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: 16, color: "#DCDCDC", marginLeft: 12 }}>
               Sună-mă
             </span>
           </a>
@@ -133,7 +133,7 @@ const Index = () => {
             onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "none"; }}
           >
             <img src={whatsappIcon} alt="WhatsApp" style={{ width: 40, height: 40 }} />
-            <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, fontSize: 18, color: "#DCDCDC", marginLeft: 12 }}>
+            <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: 16, color: "#DCDCDC", marginLeft: 12 }}>
               Scrie-mi pe WhatsApp
             </span>
           </a>
