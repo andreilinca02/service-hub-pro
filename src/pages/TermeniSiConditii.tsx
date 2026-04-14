@@ -11,6 +11,8 @@ const TermeniSiConditii = () => {
         </h1>
 
         <div style={{ fontFamily: "'Inter', sans-serif", fontSize: 16, color: "#CCCCCC", lineHeight: 1.8, display: "flex", flexDirection: "column", gap: 20 }}>
+          <p>Bine ați venit pe site-ul nostru. Prin accesarea și utilizarea acestui site, sunteți de acord cu următorii termeni și condiții.</p>
+
           <h2 style={h2Style}>1. DISPOZIȚII GENERALE</h2>
           <p>Utilizarea site-ului www.emb-tech.ro implică acceptarea prezentelor Termeni și Condiții de către utilizator.</p>
           <p>Acest document stabilește cadrul legal aplicabil utilizării site-ului și relației dintre utilizator și prestatorul de servicii.</p>
