@@ -95,8 +95,8 @@ const TermeniSiConditii = () => {
           <h2 style={h2Style}>11. PROCEDURA DE REZOLVARE A RECLAMAȚIILOR</h2>
           <p>Orice nemulțumire poate fi transmisă:</p>
           <ul style={{ paddingLeft: 24, display: "flex", flexDirection: "column", gap: 4 }}>
-            <li>telefonic la numărul: 0742533747;</li>
-            <li>prin email la: contact@epitafqr.ro.</li>
+            <li>- telefonic la numărul: 0742533747;</li>
+            <li>- prin email la: contact@epitafqr.ro.</li>
           </ul>
           <p>Reclamațiile vor fi soluționate în termen de maximum 3 zile lucrătoare.</p>
           <p>Părțile vor încerca soluționarea amiabilă a oricărei dispute.</p>
