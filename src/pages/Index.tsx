@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import heroImage from "@/assets/Website_Background.jpg";
-import { Mail, Phone, Instagram } from "lucide-react";
+import { Mail, Phone, Instagram, MessageCircle } from "lucide-react";
 
 const services = [
   { title: "Reparații", desc: "diagnosticare și reparație PCB-uri, plăci de bază, mufe, înlocuire de componente, upgradeuri și optimizări", link: "/servicii#reparatii-hardware" },
@@ -89,6 +89,57 @@ const Index = () => {
           }}
         >
           Contact
+        </a>
+
+        {/* Phone Call Action */}
+        <a
+          href="tel:0777777777"
+          className="flex items-center justify-center cursor-pointer"
+          style={{
+            marginTop: 15,
+            position: "relative",
+            zIndex: 3,
+            transition: "all 0.25s ease",
+          }}
+          onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 0 10px rgba(137,189,205,0.3)"; }}
+          onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "none"; }}
+        >
+          <div
+            className="flex items-center justify-center shrink-0"
+            style={{
+              width: 45,
+              height: 45,
+              backgroundColor: "#22c55e",
+              border: "1px solid #5A5A5A",
+              borderRadius: "50%",
+            }}
+          >
+            <Phone size={22} color="white" />
+          </div>
+          <span style={{ fontFamily: "Impact, sans-serif", fontSize: 18, color: "#DCDCDC", marginLeft: 12 }}>
+            Sună-mă
+          </span>
+        </a>
+
+        {/* WhatsApp Action */}
+        <a
+          href="https://wa.me/40777777777"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center cursor-pointer"
+          style={{
+            marginTop: 10,
+            position: "relative",
+            zIndex: 3,
+            transition: "all 0.25s ease",
+          }}
+          onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 0 10px rgba(137,189,205,0.3)"; }}
+          onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "none"; }}
+        >
+          <MessageCircle size={40} color="#22c55e" />
+          <span style={{ fontFamily: "Impact, sans-serif", fontSize: 18, color: "#DCDCDC", marginLeft: 12 }}>
+            Scrie-mi pe WhatsApp
+          </span>
         </a>
       </section>
 
