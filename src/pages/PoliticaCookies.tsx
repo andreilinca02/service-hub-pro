@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 
-const h2Style: React.CSSProperties = { fontWeight: 700, fontSize: 18, color: "#5A5A5A" };
+const h2Style: React.CSSProperties = { fontWeight: 700, fontSize: 18, color: "#FFFFFF" };
 
 const PoliticaCookies = () => {
   return (
@@ -22,11 +22,11 @@ const PoliticaCookies = () => {
         </a>
       </header>
       <div className="px-4 max-w-5xl mx-auto w-full" style={{ flex: 1, paddingTop: 60, paddingBottom: 40 }}>
-        <h1 style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: 26, color: "#5A5A5A", marginBottom: 30 }}>
+        <h1 style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: 26, color: "#FFFFFF", marginBottom: 30 }}>
           POLITICA DE COOKIES
         </h1>
 
-        <div style={{ fontFamily: "'Inter', sans-serif", fontSize: 16, color: "#5A5A5A", lineHeight: 1.8, display: "flex", flexDirection: "column", gap: 20 }}>
+        <div style={{ fontFamily: "'Inter', sans-serif", fontSize: 16, color: "#CCCCCC", lineHeight: 1.8, display: "flex", flexDirection: "column", gap: 20 }}>
           <p>Această politică se referă la cookie-urile și paginile web operate de EPITAF QR SRL cu sediul social pe Str. Stirenului 20, Onești, 601056, Bacău.</p>
 
           <h2 style={h2Style}>1. CE ESTE UN COOKIE?</h2>
