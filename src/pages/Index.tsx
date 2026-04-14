@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import heroImage from "@/assets/Website_Background.jpg";
-import { Mail, Phone, Instagram, MessageCircle } from "lucide-react";
+import { Mail, Phone, Instagram } from "lucide-react";
+import whatsappIcon from "@/assets/whatsapp-icon.avif";
 
 const services = [
   { title: "Reparații", desc: "diagnosticare și reparație PCB-uri, plăci de bază, mufe, înlocuire de componente, upgradeuri și optimizări", link: "/servicii#reparatii-hardware" },
@@ -114,7 +115,7 @@ const Index = () => {
               borderRadius: "50%",
             }}
           >
-            <Phone size={22} color="white" />
+            <Phone size={22} color="black" />
           </div>
           <span style={{ fontFamily: "Impact, sans-serif", fontSize: 18, color: "#DCDCDC", marginLeft: 12 }}>
             Sună-mă
@@ -136,9 +137,7 @@ const Index = () => {
           onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 0 10px rgba(137,189,205,0.3)"; }}
           onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "none"; }}
         >
-          <svg viewBox="0 0 32 32" width="40" height="40" fill="#22c55e" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16.004 0h-.008C7.174 0 0 7.176 0 16c0 3.5 1.128 6.744 3.046 9.378L1.054 31.29l6.118-1.958A15.905 15.905 0 0 0 16.004 32C24.826 32 32 24.822 32 16S24.826 0 16.004 0zm9.554 22.606c-.398 1.12-2.346 2.142-3.236 2.208-.89.068-1.716.4-5.782-1.204-4.894-1.93-7.972-6.942-8.212-7.266-.24-.322-1.958-2.604-1.958-4.966s1.24-3.522 1.68-4.004c.44-.482.962-.602 1.282-.602.32 0 .64.002.92.016.296.016.694-.112 1.084.828.398.96 1.358 3.322 1.478 3.562.12.24.2.522.04.842-.16.322-.24.522-.48.802-.24.282-.504.63-.72.844-.24.24-.49.502-.21.982.28.482 1.244 2.054 2.672 3.326 1.836 1.636 3.384 2.142 3.864 2.382.482.24.762.2 1.042-.12.28-.322 1.2-1.4 1.52-1.882.32-.482.64-.4 1.08-.24.44.16 2.8 1.32 3.28 1.562.48.24.8.362.92.562.12.2.12 1.16-.278 2.28z"/>
-          </svg>
+          <img src={whatsappIcon} alt="WhatsApp" style={{ width: 40, height: 40 }} />
           <span style={{ fontFamily: "Impact, sans-serif", fontSize: 18, color: "#DCDCDC", marginLeft: 12 }}>
             Scrie-mi pe WhatsApp
           </span>
