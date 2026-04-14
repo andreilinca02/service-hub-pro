@@ -5,6 +5,7 @@ import laptopImage from "@/assets/embtech_mentenanta_laptop.jpg";
 import pcbImage from "@/assets/embtech_reparatii_PCB_microsoldering.webp";
 import consoleImage from "@/assets/embtech_mentenanta_console.webp";
 import biosImage from "@/assets/embtech_software_BIOS.jpeg";
+import Footer from "@/components/Footer";
 
 const Servicii = () => {
   const location = useLocation();
@@ -305,6 +306,8 @@ const Servicii = () => {
         </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 };
