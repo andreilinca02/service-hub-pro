@@ -92,56 +92,52 @@ const Index = () => {
           Contact
         </a>
 
-        {/* Phone Call Action */}
-        <a
-          href="tel:0777777777"
-          className="flex items-center justify-center cursor-pointer"
-          style={{
-            marginTop: 15,
-            position: "relative",
-            zIndex: 3,
-            transition: "all 0.25s ease",
-          }}
-          onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 0 10px rgba(137,189,205,0.3)"; }}
-          onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "none"; }}
+        {/* Contact Actions Group */}
+        <div
+          className="flex flex-col items-center justify-center"
+          style={{ marginTop: 100, position: "relative", zIndex: 3 }}
         >
-          <div
-            className="flex items-center justify-center shrink-0"
-            style={{
-              width: 45,
-              height: 45,
-              backgroundColor: "#22c55e",
-              border: "1px solid #5A5A5A",
-              borderRadius: "50%",
-            }}
+          {/* Phone Call Action */}
+          <a
+            href="tel:0777777777"
+            className="flex items-center justify-center cursor-pointer"
+            style={{ transition: "all 0.25s ease" }}
+            onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 0 10px rgba(137,189,205,0.3)"; }}
+            onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "none"; }}
           >
-            <Phone size={22} color="black" />
-          </div>
-          <span style={{ fontFamily: "Impact, sans-serif", fontSize: 18, color: "#DCDCDC", marginLeft: 12 }}>
-            Sună-mă
-          </span>
-        </a>
+            <div
+              className="flex items-center justify-center shrink-0"
+              style={{
+                width: 45,
+                height: 45,
+                backgroundColor: "#000000",
+                border: "3px solid #189D0E",
+                borderRadius: "50%",
+              }}
+            >
+              <Phone size={22} color="#189D0E" />
+            </div>
+            <span style={{ fontFamily: "Impact, sans-serif", fontSize: 18, color: "#DCDCDC", marginLeft: 12 }}>
+              Sună-mă
+            </span>
+          </a>
 
-        {/* WhatsApp Action */}
-        <a
-          href="https://wa.me/40777777777"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center justify-center cursor-pointer"
-          style={{
-            marginTop: 10,
-            position: "relative",
-            zIndex: 3,
-            transition: "all 0.25s ease",
-          }}
-          onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 0 10px rgba(137,189,205,0.3)"; }}
-          onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "none"; }}
-        >
-          <img src={whatsappIcon} alt="WhatsApp" style={{ width: 40, height: 40 }} />
-          <span style={{ fontFamily: "Impact, sans-serif", fontSize: 18, color: "#DCDCDC", marginLeft: 12 }}>
-            Scrie-mi pe WhatsApp
-          </span>
-        </a>
+          {/* WhatsApp Action */}
+          <a
+            href="https://wa.me/40777777777"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center cursor-pointer"
+            style={{ marginTop: 12, transition: "all 0.25s ease" }}
+            onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 0 10px rgba(137,189,205,0.3)"; }}
+            onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "none"; }}
+          >
+            <img src={whatsappIcon} alt="WhatsApp" style={{ width: 40, height: 40 }} />
+            <span style={{ fontFamily: "Impact, sans-serif", fontSize: 18, color: "#DCDCDC", marginLeft: 12 }}>
+              Scrie-mi pe WhatsApp
+            </span>
+          </a>
+        </div>
       </section>
 
       {/* Servicii Section */}
