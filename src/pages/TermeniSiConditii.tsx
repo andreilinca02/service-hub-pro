@@ -11,7 +11,7 @@ const TermeniSiConditii = () => {
         </h1>
 
         <div style={{ fontFamily: "'Inter', sans-serif", fontSize: 16, color: "#CCCCCC", lineHeight: 1.8, display: "flex", flexDirection: "column", gap: 20 }}>
-          <p>Bine ați venit pe site-ul nostru. Prin accesarea și utilizarea acestui site, sunteți de acord cu următorii termeni și condiții.</p>
+          <p className="mt-[30px]">Bine ați venit pe site-ul nostru. Prin accesarea și utilizarea acestui site, sunteți de acord cu următorii termeni și condiții.</p>
 
           <h2 style={h2Style}>1. DISPOZIȚII GENERALE</h2>
           <p>Utilizarea site-ului www.emb-tech.ro implică acceptarea prezentelor Termeni și Condiții de către utilizator.</p>
@@ -48,8 +48,8 @@ const TermeniSiConditii = () => {
           <p>Serviciile nu pot fi comandate direct prin intermediul site-ului.</p>
           <p>Solicitarea serviciilor se realizează prin:</p>
           <ul style={{ paddingLeft: 24, display: "flex", flexDirection: "column", gap: 4 }}>
-            <li>apel telefonic;</li>
-            <li>transmiterea unui mesaj prin formularul de contact sau email.</li>
+            <li>- apel telefonic;</li>
+            <li>- transmiterea unui mesaj prin formularul de contact sau email.</li>
           </ul>
           <p>În urma solicitării, Prestatorul va transmite clientului o ofertă personalizată, care va include detalii privind serviciile, termenii și costurile.</p>
           <p>Contractul între părți se consideră încheiat numai în momentul acceptării explicite a ofertei de către client, în scris (de exemplu, prin email).</p>
@@ -58,8 +58,8 @@ const TermeniSiConditii = () => {
           <h2 style={h2Style}>8. PLĂȚI ȘI LIMITĂRI</h2>
           <p>Metodele de plată acceptate sunt:</p>
           <ul style={{ paddingLeft: 24, display: "flex", flexDirection: "column", gap: 4 }}>
-            <li>ramburs (numerar la livrare/prestare, dacă este cazul);</li>
-            <li>transfer bancar, în contul comunicat clientului.</li>
+            <li>- ramburs (numerar la livrare/prestare, dacă este cazul);</li>
+            <li>- transfer bancar, în contul comunicat clientului.</li>
           </ul>
           <p>Plata serviciilor se efectuează conform condițiilor stabilite și acceptate în oferta transmisă.</p>
           <p>Prestatorul depune toate eforturile pentru a furniza informații corecte și actualizate pe site, însă nu garantează lipsa erorilor.</p>
@@ -72,10 +72,10 @@ const TermeniSiConditii = () => {
           <p>Garanția acoperă exclusiv lucrările efectuate și componentele înlocuite de către Prestator.</p>
           <p>Garanția nu se aplică în următoarele situații:</p>
           <ul style={{ paddingLeft: 24, display: "flex", flexDirection: "column", gap: 4 }}>
-            <li>utilizare necorespunzătoare a echipamentului;</li>
-            <li>intervenții realizate de terți neautorizați;</li>
-            <li>deteriorări mecanice, electrice sau cauzate de factori externi (șocuri, lichide, variații de tensiune etc.);</li>
-            <li>uzură normală a componentelor.</li>
+            <li>- utilizare necorespunzătoare a echipamentului;</li>
+            <li>- intervenții realizate de terți neautorizați;</li>
+            <li>- deteriorări mecanice, electrice sau cauzate de factori externi (șocuri, lichide, variații de tensiune etc.);</li>
+            <li>- uzură normală a componentelor.</li>
           </ul>
           <p>Pentru a beneficia de garanție, clientul are obligația de a notifica Prestatorul în perioada de garanție și de a pune la dispoziție echipamentul pentru verificare.</p>
           <p>În cazul în care se constată că problema reclamată este acoperită de garanție, remedierea se va face fără costuri suplimentare pentru client.</p>
@@ -87,8 +87,8 @@ const TermeniSiConditii = () => {
           <p>Dacă retragerea intervine după începerea prestării serviciilor, clientul va datora contravaloarea serviciilor deja efectuate până la momentul notificării retragerii.</p>
           <p>Anularea sau retragerea se comunică Prestatorului:</p>
           <ul style={{ paddingLeft: 24, display: "flex", flexDirection: "column", gap: 4 }}>
-            <li>telefonic;</li>
-            <li>prin email, la adresa indicată pe site.</li>
+            <li>- telefonic;</li>
+            <li>- prin email, la adresa indicată pe site.</li>
           </ul>
           <p>Prestatorul își rezervă dreptul de a analiza fiecare solicitare de anulare în funcție de stadiul serviciului și de a comunica clientului eventualele costuri aferente.</p>
 
