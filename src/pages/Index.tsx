@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import heroImage from "@/assets/Website_Background.jpg";
-import { Mail, Phone, Instagram } from "lucide-react";
+import { Mail, Phone, Instagram, MessageCircle } from "lucide-react";
 
 const services = [
   { title: "Reparații", desc: "diagnosticare și reparație PCB-uri, plăci de bază, mufe, înlocuire de componente, upgradeuri și optimizări", link: "/servicii#reparatii-hardware" },
