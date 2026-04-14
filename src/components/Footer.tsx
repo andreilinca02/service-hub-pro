@@ -18,15 +18,15 @@ const Footer = () => {
           <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 16, fontWeight: 700, color: "#5A5A5A" }}>
             Informații utile
           </span>
-          <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 16, fontWeight: 400, color: "#5A5A5A" }}>
+          <Link to="/termeni-si-conditii" style={{ fontFamily: "'Inter', sans-serif", fontSize: 16, fontWeight: 400, color: "#5A5A5A", textDecoration: "none", transition: "all 0.2s ease", cursor: "pointer" }} className="hover:!text-[#8A8A8A] hover:underline">
             Termeni și Condiții
-          </span>
-          <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 16, fontWeight: 400, color: "#5A5A5A" }}>
+          </Link>
+          <Link to="/politica-cookies" style={{ fontFamily: "'Inter', sans-serif", fontSize: 16, fontWeight: 400, color: "#5A5A5A", textDecoration: "none", transition: "all 0.2s ease", cursor: "pointer" }} className="hover:!text-[#8A8A8A] hover:underline">
             Politică de Cookies
-          </span>
-          <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 16, fontWeight: 400, color: "#5A5A5A" }}>
+          </Link>
+          <Link to="/politica-confidentialitate" style={{ fontFamily: "'Inter', sans-serif", fontSize: 16, fontWeight: 400, color: "#5A5A5A", textDecoration: "none", transition: "all 0.2s ease", cursor: "pointer" }} className="hover:!text-[#8A8A8A] hover:underline">
             Politică de Confidențialitate
-          </span>
+          </Link>
         </div>
 
         {/* Center */}
