@@ -108,14 +108,14 @@ const Index = () => {
             <div
               className="flex items-center justify-center shrink-0"
               style={{
-                width: 45,
-                height: 45,
+                width: 40,
+                height: 40,
                 backgroundColor: "#000000",
                 border: "3px solid #189D0E",
                 borderRadius: "50%",
               }}
             >
-              <Phone size={22} color="#189D0E" />
+              <Phone size={20} color="#189D0E" />
             </div>
             <span style={{ fontFamily: "Impact, sans-serif", fontSize: 18, color: "#DCDCDC", marginLeft: 12 }}>
               Sună-mă
