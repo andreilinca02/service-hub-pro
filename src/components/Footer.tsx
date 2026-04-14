@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import salImage from "@/assets/SAL.png";
 import solImage from "@/assets/SOL.png";
 
