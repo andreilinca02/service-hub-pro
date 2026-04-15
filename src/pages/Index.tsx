@@ -90,7 +90,7 @@ const Index = () => {
             className="px-8 py-2 text-base border hover:opacity-90 transition-opacity border-black rounded-full text-black bg-primary"
             style={{
               fontFamily: "'Inter', sans-serif",
-              fontWeight: 300,
+              fontWeight: 700,
             }}
           >
             Contact
