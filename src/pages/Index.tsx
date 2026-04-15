@@ -129,7 +129,7 @@ const Index = () => {
       </section>
 
       {/* Servicii Section */}
-      <section id="servicii" className="px-4 pb-20 max-w-5xl mx-auto" style={{ marginTop: 40 }}>
+      <section id="servicii" className="px-4 max-w-5xl mx-auto pb-[100px]" style={{ marginTop: 40 }}>
         <h2
           className="gradient-text text-center font-black text-[24px] mb-10"
           style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
@@ -172,7 +172,7 @@ const Index = () => {
       </section>
 
       {/* Soluții Development Section */}
-      <section className="px-4 pb-20 max-w-5xl mx-auto" style={{ marginTop: 30 }}>
+      <section className="px-4 max-w-5xl mx-auto pb-[100px]" style={{ marginTop: 30 }}>
         <h2
           className="gradient-text text-center font-black text-[24px] mb-10"
           style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
@@ -211,7 +211,7 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="px-4 mx-auto mt-[60px]" style={{ maxWidth: 1200, paddingTop: 100, paddingBottom: 100, marginTop: 0 }}>
+      <section className="px-4 mx-auto mt-0" style={{ maxWidth: 1200, paddingTop: 100, paddingBottom: 100, marginTop: 0 }}>
         <h2
           className="gradient-text text-center font-black text-[24px] mb-0"
           style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
