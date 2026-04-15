@@ -7,6 +7,7 @@ import Index from "./pages/Index.tsx";
 import Servicii from "./pages/Servicii.tsx";
 import TermeniSiConditii from "./pages/TermeniSiConditii.tsx";
 import PoliticaCookies from "./pages/PoliticaCookies.tsx";
+import PoliticaConfidentialitate from "./pages/PoliticaConfidentialitate.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/servicii" element={<Servicii />} />
           <Route path="/termeni-si-conditii" element={<TermeniSiConditii />} />
           <Route path="/politica-cookies" element={<PoliticaCookies />} />
+          <Route path="/politica-confidentialitate" element={<PoliticaConfidentialitate />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
