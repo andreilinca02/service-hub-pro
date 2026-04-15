@@ -4,6 +4,7 @@ import heroImage from "@/assets/Website_Background.jpg";
 import { Mail, Phone, Instagram } from "lucide-react";
 import Footer from "@/components/Footer";
 import whatsappIcon from "@/assets/whatsapp-icon.png";
+import phoneIcon from "@/assets/phone-icon.png";
 
 const services = [
   { title: "Reparații", desc: "diagnosticare și reparație PCB-uri, plăci de bază, mufe, înlocuire de componente, upgradeuri și optimizări", link: "/servicii#reparatii-hardware" },
