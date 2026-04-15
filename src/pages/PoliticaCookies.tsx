@@ -27,7 +27,7 @@ const PoliticaCookies = () => {
         </h1>
 
         <div style={{ fontFamily: "'Inter', sans-serif", fontSize: 16, color: "#CCCCCC", lineHeight: 1.8, display: "flex", flexDirection: "column", gap: 20 }}>
-          <p>Această politică se referă la cookie-urile și paginile web operate de EPITAF QR SRL cu sediul social pe Str. Stirenului 20, Onești, 601056, Bacău.</p>
+          <p>Această politică se referă la cookie-urile și paginile web operate de LINCA ANDREI PERSOANA FIZICA AUTORIZATA cu sediul social pe Str. Galați nr. 6, Cluj-napoca, jud. Cluj, 400584.</p>
 
           <h2 style={h2Style}>1. CE ESTE UN COOKIE?</h2>
           <p>Cookie-ul este un fișier de mici dimensiuni, format din litere și numere, care va fi stocat pe computerul, terminalul mobil sau alte echipamente ale unui utilizator de pe care se accesează Internetul. Cookie-ul este instalat prin solicitarea emisă de către un web-server unui browser (ex: Internet Explorer, Chrome) și este complet „pasiv" (nu conține programe software, viruși sau spyware și nu poate accesa informațiile de pe hard disk-ul utilizatorului).</p>
