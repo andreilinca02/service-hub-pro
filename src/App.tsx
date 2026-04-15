@@ -11,6 +11,12 @@ import PoliticaCookies from "./pages/PoliticaCookies.tsx";
 import PoliticaConfidentialitate from "./pages/PoliticaConfidentialitate.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  return null;
+};
+
 const queryClient = new QueryClient();
 
 const App = () => (
