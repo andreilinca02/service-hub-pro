@@ -6,6 +6,7 @@ import pcbImage from "@/assets/embtech_reparatii_PCB_microsoldering.webp";
 import consoleImage from "@/assets/embtech_mentenanta_console.webp";
 import biosImage from "@/assets/embtech_software_BIOS.jpeg";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 const Servicii = () => {
   const location = useLocation();
@@ -21,23 +22,8 @@ const Servicii = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="flex items-center justify-center gap-6 py-5">
-        <a
-          href="/"
-          className="px-6 py-2 bg-background text-sm tracking-wide hover:opacity-70 transition-opacity"
-          style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, color: "#DCDCDC" }}
-        >
-          Acasă
-        </a>
-        <a
-          href="/servicii"
-          className="px-6 py-2 bg-background text-sm tracking-wide hover:opacity-70 transition-opacity"
-          style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, color: "#DCDCDC", borderBottom: "1px solid white" }}
-        >
-          Servicii
-        </a>
-      </header>
+      <Header />
+      <div style={{ paddingTop: 60 }} />
 
       {/* Hero Image */}
       <section className="w-full flex justify-center" style={{ marginTop: 40, marginBottom: 40 }}>

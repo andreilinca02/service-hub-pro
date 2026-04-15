@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import heroImage from "@/assets/Website_Background.jpg";
 import { Mail, Phone, Instagram } from "lucide-react";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import whatsappIcon from "@/assets/whatsapp-icon.png";
 import phoneIcon from "@/assets/phone-icon.png";
 
@@ -49,23 +50,8 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="flex items-center justify-center gap-6 py-5">
-        <a
-          href="/"
-          className="px-6 py-2 bg-background text-sm tracking-wide hover:opacity-70 transition-opacity"
-          style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, color: "#DCDCDC" }}
-        >
-          Acasă
-        </a>
-        <a
-          href="/servicii"
-          className="px-6 py-2 bg-background text-sm tracking-wide hover:opacity-70 transition-opacity"
-          style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, color: "#DCDCDC" }}
-        >
-          Servicii
-        </a>
-      </header>
+      <Header />
+      <div style={{ paddingTop: 60 }} />
 
       {/* Hero */}
       <section
