@@ -70,23 +70,23 @@ const Index = () => {
       {/* Hero */}
       <section
         id="acasa"
-        className="w-full relative flex flex-col items-center justify-end"
+        className="w-full flex flex-col items-center justify-center"
         style={{ minHeight: "calc(100vh - 60px)" }}
       >
         <img
           src={heroImage}
           alt="EMB-TECH"
-          className="absolute left-1/2 top-1/2 w-full max-w-5xl object-contain px-4"
-          style={{ transform: "translate(-50%, -50%) scale(1.3225)", zIndex: 1 }}
+          className="w-full max-w-5xl object-contain px-4"
+          style={{ transform: "scale(1.3225)", position: "relative", zIndex: 1 }}
         />
         <a
           href="mailto:contact@emb-tech.ro"
-          className="px-8 py-2.5 text-base border border-foreground bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
+          className="px-10 py-3 text-lg border border-foreground bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
           style={{
             fontFamily: "'Inter', sans-serif",
             fontWeight: 300,
-            borderRadius: 21,
-            marginTop: 205,
+            borderRadius: 25,
+            marginTop: 25,
             position: "relative",
             zIndex: 3,
           }}
@@ -97,7 +97,7 @@ const Index = () => {
         {/* Contact Actions Group */}
         <div
           className="flex flex-col items-center justify-center"
-          style={{ marginTop: 40, position: "relative", zIndex: 3 }}
+          style={{ marginTop: 100, position: "relative", zIndex: 3 }}
         >
           {/* Phone Call Action */}
           <a
@@ -214,7 +214,7 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="px-4 mx-auto mt-[60px]" style={{ maxWidth: 1200, paddingTop: 100, paddingBottom: 0, marginTop: -80 }}>
+      <section className="px-4 mx-auto mt-[60px]" style={{ maxWidth: 1200, paddingTop: 100, paddingBottom: 100, marginTop: -50 }}>
         <h2
           className="gradient-text text-center font-black text-[24px] mb-0"
           style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
