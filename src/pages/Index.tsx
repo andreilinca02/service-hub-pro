@@ -81,11 +81,11 @@ const Index = () => {
         />
         <a
           href="mailto:contact@emb-tech.ro"
-          className="px-10 py-3 text-lg border border-foreground bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
+          className="px-8 py-2.5 text-base border border-foreground bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
           style={{
             fontFamily: "'Inter', sans-serif",
             fontWeight: 300,
-            borderRadius: 25,
+            borderRadius: 21,
             marginTop: 25,
             position: "relative",
             zIndex: 3,
