@@ -83,7 +83,7 @@ const Index = () => {
         <div
           id="contact_buttons"
           className="flex flex-col items-center justify-center"
-          style={{ marginTop: 75, position: "relative", zIndex: 3 }}
+          style={{ marginTop: 115, position: "relative", zIndex: 3 }}
         >
           <a
             href="mailto:contact@emb-tech.ro"
