@@ -4,6 +4,7 @@ import heroImage from "@/assets/Website_Background.jpg";
 import { Mail, Phone, Instagram } from "lucide-react";
 import Footer from "@/components/Footer";
 import whatsappIcon from "@/assets/whatsapp-icon.png";
+import phoneIcon from "@/assets/phone-icon.png";
 
 const services = [
   { title: "Reparații", desc: "diagnosticare și reparație PCB-uri, plăci de bază, mufe, înlocuire de componente, upgradeuri și optimizări", link: "/servicii#reparatii-hardware" },
@@ -106,18 +107,7 @@ const Index = () => {
             onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 0 10px rgba(137,189,205,0.3)"; }}
             onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "none"; }}
           >
-            <div
-              className="flex items-center justify-center shrink-0"
-              style={{
-                width: 40,
-                height: 40,
-                backgroundColor: "#000000",
-                border: "3px solid #189D0E",
-                borderRadius: "50%",
-              }}
-            >
-              <Phone size={20} color="#189D0E" fill="#189D0E" />
-            </div>
+            <img src={phoneIcon} alt="Phone" style={{ width: 40, height: 40 }} />
             <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: 16, color: "#DCDCDC", marginLeft: 12 }}>
               Sună-mă
             </span>
