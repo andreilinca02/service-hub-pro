@@ -97,7 +97,7 @@ const Index = () => {
         {/* Contact Actions Group */}
         <div
           className="flex flex-col items-center justify-center"
-          style={{ marginTop: 100, position: "relative", zIndex: 3 }}
+          style={{ marginTop: 60, position: "relative", zIndex: 3 }}
         >
           {/* Phone Call Action */}
           <a
