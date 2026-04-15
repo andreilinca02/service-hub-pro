@@ -172,7 +172,7 @@ const Index = () => {
       </section>
 
       {/* Soluții Development Section */}
-      <section className="px-4 max-w-5xl mx-auto pb-[20px]" style={{ marginTop: 30 }}>
+      <section className="px-4 max-w-5xl mx-auto pb-[30px]" style={{ marginTop: 30 }}>
         <h2
           className="gradient-text text-center font-black text-[24px] mb-10"
           style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
