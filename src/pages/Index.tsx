@@ -382,8 +382,11 @@ const Index = () => {
                 </span>
               </div>
 
-              <div
-                className="flex items-center"
+              <a
+                href="https://www.instagram.com/emb.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center hover:opacity-70 transition-opacity"
                 style={{
                   height: 57,
                   background: "hsl(var(--contact-box-bg))",
@@ -397,7 +400,7 @@ const Index = () => {
                 <span className="text-foreground" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, fontSize: 15, color: "#DCDCDC" }}>
                   @emb.tech
                 </span>
-              </div>
+              </a>
             </div>
           </div>
         </div>
