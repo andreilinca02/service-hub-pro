@@ -1,26 +1,13 @@
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 const h2Style: React.CSSProperties = { fontWeight: 700, fontSize: 18, color: "#FFFFFF" };
 
 const PoliticaConfidentialitate = () => {
   return (
     <div style={{ minHeight: "100vh", backgroundColor: "#000", display: "flex", flexDirection: "column" }}>
-      <header className="flex items-center justify-center gap-6 py-5">
-        <a
-          href="/"
-          className="px-6 py-2 bg-background text-sm tracking-wide hover:opacity-70 transition-opacity"
-          style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, color: "#DCDCDC" }}
-        >
-          Acasă
-        </a>
-        <a
-          href="/servicii"
-          className="px-6 py-2 bg-background text-sm tracking-wide hover:opacity-70 transition-opacity"
-          style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, color: "#DCDCDC" }}
-        >
-          Servicii
-        </a>
-      </header>
+      <Header />
+      <div style={{ paddingTop: 60 }} />
       <div className="px-4 max-w-5xl mx-auto w-full" style={{ flex: 1, paddingTop: 60, paddingBottom: 40 }}>
         <h1 style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: 26, color: "#FFFFFF", marginBottom: 30 }}>
           POLITICA DE CONFIDENȚIALITATE
