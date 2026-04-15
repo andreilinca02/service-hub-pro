@@ -10,8 +10,8 @@ import phoneIcon from "@/assets/phone-icon.png";
 const services = [
   { title: "Reparații", desc: "diagnosticare și reparație PCB-uri, plăci de bază, mufe, înlocuire de componente, upgradeuri și optimizări", link: "/servicii#reparatii-hardware" },
   { title: "Mentenanță laptop/PC", desc: "curățare profesională interioară, înlocuire pastă termoconductoare, verificare ventilatoare și airflow, remediere erori hardware", link: "/servicii#mentenanta-laptop-pc" },
-  { title: "Mentenanță consolă", desc: "curățare profesională interioară, înlocuire pastă termoconductoare, verificare ventilatoare și airflow" },
-  { title: "Software", desc: "instalare/optimizare sistem de operare, update/rescriere BIOS, drivere, instalare diverse software" },
+  { title: "Mentenanță consolă", desc: "curățare profesională interioară, înlocuire pastă termoconductoare, verificare ventilatoare și airflow", link: "/servicii#mentenanta-consola" },
+  { title: "Software", desc: "instalare/optimizare sistem de operare, update/rescriere BIOS, drivere, instalare diverse software", link: "/servicii#servicii-software" },
 ];
 
 const errorStyle: React.CSSProperties = {
