@@ -34,7 +34,7 @@ const TermeniSiConditii = () => {
           <p>Acest document stabilește cadrul legal aplicabil utilizării site-ului și relației dintre utilizator și prestatorul de servicii.</p>
 
           <h2 style={h2Style}>2. IDENTITATEA PRESTATORULUI</h2>
-          <p>Site-ul este operat de LINCA ANDREI PFA, cu sediul în str. Stirenului nr. 20, Onești, județul Bacău, CUI 42408855 (denumită în continuare „Prestatorul").</p>
+          <p>Site-ul este operat de LINCA ANDREI PFA, cu sediul în str. Galați nr. 6, Cluj-napoca, județul Cluj, CUI 42408855 (denumită în continuare „Prestatorul").</p>
 
           <h2 style={h2Style}>3. INFORMAȚII GENERALE</h2>
           <p>Site-ul www.emb-tech.ro are rol exclusiv informativ și prezintă serviciile oferite de către Prestator.</p>
