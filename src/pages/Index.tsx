@@ -376,6 +376,7 @@ const Index = () => {
                 }}
               >
                 <Phone size={20} className="text-foreground shrink-0" />
+                <img src={whatsappIcon} alt="WhatsApp" style={{ width: 20, height: 20, filter: "brightness(0) invert(1)" }} className="shrink-0" />
                 <span className="text-foreground" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 300, fontSize: 15, color: "#DCDCDC" }}>
                   0777777777
                 </span>
