@@ -86,7 +86,7 @@ const Index = () => {
             fontFamily: "'Inter', sans-serif",
             fontWeight: 300,
             borderRadius: 21,
-            marginTop: 65,
+            marginTop: 125,
             position: "relative",
             zIndex: 3,
           }}
