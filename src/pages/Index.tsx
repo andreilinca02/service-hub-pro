@@ -70,14 +70,14 @@ const Index = () => {
       {/* Hero */}
       <section
         id="acasa"
-        className="w-full flex flex-col items-center justify-center"
+        className="w-full relative flex flex-col items-center justify-end"
         style={{ minHeight: "calc(100vh - 60px)" }}
       >
         <img
           src={heroImage}
           alt="EMB-TECH"
-          className="w-full max-w-5xl object-contain px-4"
-          style={{ transform: "scale(1.3225)", position: "relative", zIndex: 1 }}
+          className="absolute left-1/2 top-1/2 w-full max-w-5xl object-contain px-4"
+          style={{ transform: "translate(-50%, -50%) scale(1.3225)", zIndex: 1 }}
         />
         <a
           href="mailto:contact@emb-tech.ro"
