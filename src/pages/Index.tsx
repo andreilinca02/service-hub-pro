@@ -70,8 +70,8 @@ const Index = () => {
       {/* Hero */}
       <section
         id="acasa"
-        className="w-full flex flex-col items-center justify-center"
-        style={{ minHeight: "calc(100vh - 60px)" }}
+        className="w-full flex flex-col items-center"
+        style={{ minHeight: "calc(100vh - 60px)", paddingTop: "18vh" }}
       >
         <img
           src={heroImage}
