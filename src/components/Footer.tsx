@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="px-4 max-w-5xl mx-auto">
       {/* Separator */}
-      <div style={{ width: "100%", height: 1, backgroundColor: "#5A5A5A", marginTop: 60 }} />
+      <div style={{ width: "100%", height: 1, backgroundColor: "#5A5A5A", marginTop: -20 }} />
 
       {/* Footer Content */}
       <div
