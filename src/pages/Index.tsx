@@ -214,7 +214,7 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="px-4 mx-auto mt-[60px]" style={{ maxWidth: 1200, paddingTop: 100, paddingBottom: 100, marginTop: 70 }}>
+      <section className="px-4 mx-auto mt-[60px]" style={{ maxWidth: 1200, paddingTop: 100, paddingBottom: 100, marginTop: 40 }}>
         <h2
           className="gradient-text text-center font-black text-[24px] mb-0"
           style={{ fontFamily: "'Arial Black', 'Arial Bold', Arial, sans-serif" }}
