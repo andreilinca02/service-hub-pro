@@ -116,7 +116,7 @@ const Index = () => {
                 borderRadius: "50%",
               }}
             >
-              <Phone size={20} color="#189D0E" />
+              <Phone size={20} color="#189D0E" fill="#189D0E" />
             </div>
             <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: 16, color: "#DCDCDC", marginLeft: 12 }}>
               Sună-mă
