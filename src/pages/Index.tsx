@@ -79,31 +79,29 @@ const Index = () => {
           className="w-full max-w-5xl object-contain px-4"
           style={{ transform: "scale(1.3225)", position: "relative", zIndex: 1 }}
         />
-        <a
-          href="mailto:contact@emb-tech.ro"
-          className="px-10 py-3 text-lg border border-foreground bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
-          style={{
-            fontFamily: "'Inter', sans-serif",
-            fontWeight: 300,
-            borderRadius: 25,
-            marginTop: 25,
-            position: "relative",
-            zIndex: 3,
-          }}
-        >
-          Contact
-        </a>
-
-        {/* Contact Actions Group */}
+        {/* Contact Buttons Section */}
         <div
+          id="contact_buttons"
           className="flex flex-col items-center justify-center"
-          style={{ marginTop: 30, position: "relative", zIndex: 3 }}
+          style={{ marginTop: 75, position: "relative", zIndex: 3 }}
         >
+          <a
+            href="mailto:contact@emb-tech.ro"
+            className="px-10 py-3 text-lg border border-foreground bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
+            style={{
+              fontFamily: "'Inter', sans-serif",
+              fontWeight: 300,
+              borderRadius: 25,
+            }}
+          >
+            Contact
+          </a>
+
           {/* Phone Call Action */}
           <a
             href="tel:0777777777"
             className="flex items-center justify-center cursor-pointer"
-            style={{ transition: "all 0.25s ease" }}
+            style={{ marginTop: 30, transition: "all 0.25s ease" }}
             onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 0 10px rgba(137,189,205,0.3)"; }}
             onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "none"; }}
           >
